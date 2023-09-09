@@ -40,5 +40,5 @@ extension DetailsHomeViewController {
         let lines = Int(ceil(CGFloat(labelSize.height) / label.font.lineHeight))
         return labelText.contains("\n") && lines == 1 ? lines + 1 : lines
     }
-     
+    
 }

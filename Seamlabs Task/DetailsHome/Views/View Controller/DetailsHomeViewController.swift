@@ -22,7 +22,7 @@ class DetailsHomeViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func urlArticle(sender: AnyObject) {
         if let url = NSURL(string: article?.url ?? ""){
-            UIApplication.shared.openURL(url as URL)
+            UIApplication.shared.open(url as URL)
         }
     }
     
@@ -40,11 +40,11 @@ class DetailsHomeViewController: UIViewController, UITextFieldDelegate {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
-    }    
-
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         handleUI()
     }
-
+    
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54748F7A2AAC9A6800036F64 /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54748F792AAC9A6800036F64 /* CoreDataHandler.swift */; };
+		54748F7D2AACAFBD00036F64 /* HomeCoreDate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54748F7B2AACAFBD00036F64 /* HomeCoreDate.xcdatamodeld */; };
+		54748F812AACBB2700036F64 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54748F802AACBB2700036F64 /* NetworkMonitor.swift */; };
 		547819B02AA96323006CFD59 /* DetailsHomeViewController+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819AF2AA96323006CFD59 /* DetailsHomeViewController+Properties.swift */; };
 		547819B42AA96959006CFD59 /* HomeViewController+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819B32AA96959006CFD59 /* HomeViewController+Properties.swift */; };
 		547819B72AA96ED4006CFD59 /* MockHomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819B62AA96ED4006CFD59 /* MockHomeUseCase.swift */; };
@@ -71,6 +74,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54748F792AAC9A6800036F64 /* CoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+		54748F7C2AACAFBD00036F64 /* HomeCoreDate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeCoreDate.xcdatamodel; sourceTree = "<group>"; };
+		54748F802AACBB2700036F64 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		547819AF2AA96323006CFD59 /* DetailsHomeViewController+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailsHomeViewController+Properties.swift"; sourceTree = "<group>"; };
 		547819B32AA96959006CFD59 /* HomeViewController+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Properties.swift"; sourceTree = "<group>"; };
 		547819B62AA96ED4006CFD59 /* MockHomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeUseCase.swift; sourceTree = "<group>"; };
@@ -152,6 +158,23 @@
 				54D149DF2AA7458800F3296E /* Endpoints.swift */,
 			);
 			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		54748F7E2AACB07500036F64 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				54748F792AAC9A6800036F64 /* CoreDataHandler.swift */,
+				54748F7B2AACAFBD00036F64 /* HomeCoreDate.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		54748F7F2AACBB0900036F64 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				54748F802AACBB2700036F64 /* NetworkMonitor.swift */,
+			);
+			path = Monitor;
 			sourceTree = "<group>";
 		};
 		547819B52AA96EA0006CFD59 /* Mocks */ = {
@@ -238,6 +261,7 @@
 		547819CC2AA9B043006CFD59 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				54748F7F2AACBB0900036F64 /* Monitor */,
 				54748F782AAC647400036F64 /* Endpoint */,
 				547819D52AA9B4BC006CFD59 /* Builder */,
 				547819CD2AA9B052006CFD59 /* Service */,
@@ -326,6 +350,7 @@
 				54D149812AA611F700F3296E /* Assets.xcassets */,
 				54D149832AA611F700F3296E /* LaunchScreen.storyboard */,
 				54D149862AA611F700F3296E /* Info.plist */,
+				54748F7E2AACB07500036F64 /* CoreData */,
 			);
 			path = "Seamlabs Task";
 			sourceTree = "<group>";
@@ -676,6 +701,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				547819EB2AAADD2E006CFD59 /* HomeServiceProtocol.swift in Sources */,
+				54748F7A2AAC9A6800036F64 /* CoreDataHandler.swift in Sources */,
 				54D149C82AA691BC00F3296E /* HomeUseCase.swift in Sources */,
 				547819ED2AAADD5A006CFD59 /* HomeRepositoryProtocol.swift in Sources */,
 				54D149E62AA7EDE500F3296E /* Constants.swift in Sources */,
@@ -688,6 +714,7 @@
 				54D149F52AA81ADD00F3296E /* DetailsHomeViewController.swift in Sources */,
 				54D149CA2AA691D400F3296E /* APIService.swift in Sources */,
 				547819CF2AA9B09E006CFD59 /* APIServiceProtocol.swift in Sources */,
+				54748F812AACBB2700036F64 /* NetworkMonitor.swift in Sources */,
 				54D149DE2AA744EF00F3296E /* APIBuilder.swift in Sources */,
 				54D149E42AA7469B00F3296E /* HomeService.swift in Sources */,
 				54D149C62AA691A300F3296E /* HomeViewModel.swift in Sources */,
@@ -695,6 +722,7 @@
 				54D149762AA611F600F3296E /* AppDelegate.swift in Sources */,
 				54D149CF2AA6997000F3296E /* APIConstants.swift in Sources */,
 				54D149B12AA613ED00F3296E /* HomeViewController+TableView.swift in Sources */,
+				54748F7D2AACAFBD00036F64 /* HomeCoreDate.xcdatamodeld in Sources */,
 				547819C92AA9AF13006CFD59 /* NetworkError.swift in Sources */,
 				54D149E22AA7461900F3296E /* Environments.swift in Sources */,
 				54D149782AA611F600F3296E /* SceneDelegate.swift in Sources */,
@@ -1069,6 +1097,19 @@
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		54748F7B2AACAFBD00036F64 /* HomeCoreDate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54748F7C2AACAFBD00036F64 /* HomeCoreDate.xcdatamodel */,
+			);
+			currentVersion = 54748F7C2AACAFBD00036F64 /* HomeCoreDate.xcdatamodel */;
+			path = HomeCoreDate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 54D1496A2AA611F600F3296E /* Project object */;
 }

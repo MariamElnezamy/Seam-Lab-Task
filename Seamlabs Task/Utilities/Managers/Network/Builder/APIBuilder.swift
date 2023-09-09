@@ -8,43 +8,47 @@
 import Foundation
 
 public struct APIBuilder {
-    let url: String
+    let baseUrl: String
+    let path: String
     let headers: [String: String]?
-    let body: Data?
+    let queryParams: [URLQueryItem]?
     let requestTimeOut: Float?
     let httpMethod: HTTPMethod
-    
-    public init(url: String,
+
+    public init(baseUrl: String,
+                path: String,
                 headers: [String: String]? = nil,
-                reqBody: Encodable? = nil,
-                reqTimeout: Float? = nil,
+                queryParams: [URLQueryItem]? = nil,
+                requestTimeOut: Float? = nil,
                 httpMethod: HTTPMethod
     ) {
-        self.url = url
+        self.baseUrl = baseUrl
+        self.path = path
         self.headers = headers
-        self.body = reqBody?.encode()
-        self.requestTimeOut = reqTimeout
+        self.queryParams = queryParams
+        self.requestTimeOut = requestTimeOut
         self.httpMethod = httpMethod
     }
-    
-    public init(url: String,
-                headers: [String: String]? = nil,
-                reqBody: Data? = nil,
-                reqTimeout: Float? = nil,
-                httpMethod: HTTPMethod
-    ) {
-        self.url = url
-        self.headers = headers
-        self.body = reqBody
-        self.requestTimeOut = reqTimeout
-        self.httpMethod = httpMethod
-    }
-    
-    func buildURLRequest(with url: URL) -> URLRequest {
+
+    func buildURLRequest() -> URLRequest? {
+        guard var urlComponents = URLComponents(string: baseUrl) else {
+            return nil
+        }
+
+        urlComponents.path += path
+
+        if let queryParams = queryParams {
+            urlComponents.queryItems = queryParams
+        }
+
+        guard let url = urlComponents.url else {
+            return nil
+        }
+
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = httpMethod.rawValue
         urlRequest.allHTTPHeaderFields = headers ?? [:]
-        urlRequest.httpBody = body
+
         return urlRequest
     }
 }

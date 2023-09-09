@@ -16,7 +16,7 @@ class HomeViewController: UIViewController {
     var cancellables: Set<AnyCancellable> = []
     let viewModel = HomeViewModel()
     @IBOutlet weak var customTableView: UITableView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Today News"
@@ -24,6 +24,5 @@ class HomeViewController: UIViewController {
         bindViewModel()
         viewModel.getHome()
     }
-    
 }
 

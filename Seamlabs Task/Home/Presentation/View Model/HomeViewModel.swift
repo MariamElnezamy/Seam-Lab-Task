@@ -7,20 +7,20 @@
 
 import Foundation
 import Combine
+import CoreData
 
 class HomeViewModel: DisposeObject {
     
     @Published var homeModel: [Articles]?
     private let useCase: HomeUseCaseProtocol
     var navigationSubject: PassthroughSubject<HomeNavigation, Never>
-
-   
+    
     init(useCase: HomeUseCaseProtocol = HomeUseCase()) {
         self.useCase = useCase
         self.navigationSubject = .init()
         super.init()
     }
-
+    
     func getHome() {
         useCase.getHome()
             .receive(on: RunLoop.main)
@@ -32,10 +32,10 @@ class HomeViewModel: DisposeObject {
                 guard let self = self else { return }
                 self.navigationSubject.send(.success)
                 self.homeModel = data.articles
+                CoreDataHandler.shared.insert(from: data)
             }
             .store(in: &cancellables)
     }
-    
 }
 
 enum HomeNavigation {

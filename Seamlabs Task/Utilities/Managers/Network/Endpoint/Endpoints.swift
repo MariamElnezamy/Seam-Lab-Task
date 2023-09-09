@@ -25,16 +25,13 @@ enum ServiceEndpoints {
     }
     
     func createRequest(request: HomeRequest, environment: Environment, path: String) -> APIBuilder {
-        var headers: Headers = [:]
-        headers["Content-Type"] = "application/json"
-        return APIBuilder(url: getURL(request: request, from: environment, path: path), headers: headers, httpMethod: httpMethod)
-    }
-    
-    func getURL(request: HomeRequest, from environment: Environment, path: String) -> String {
-        let baseUrl = environment.serviceBaseUrl
-        switch self {
-        case .getProduct:
-            return "\(baseUrl + path)?q=\(request.q)&apiKey=\(Constants.key_API.rawValue)"
-        }
-    }
+         var headers: Headers = [:]
+         headers["Content-Type"] = "application/json"
+         return APIBuilder(baseUrl: environment.serviceBaseUrl,
+                           path: path,
+                           headers: headers,
+                           queryParams: [URLQueryItem(name: "q", value: request.q),
+                                         URLQueryItem(name: "apiKey", value: Constants.key_API.rawValue)],
+                           httpMethod: httpMethod)
+     }
 }

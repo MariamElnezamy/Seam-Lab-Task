@@ -15,7 +15,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         self.customTableView.dataSource = self
         customTableView.separatorStyle = .none
     }
-        
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         articls.count
     }
