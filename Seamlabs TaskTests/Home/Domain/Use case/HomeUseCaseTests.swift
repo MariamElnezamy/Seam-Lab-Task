@@ -1,14 +1,13 @@
 //
-//  Seamlabs_TaskTests.swift
+//  HomeUseCaseTests.swift
 //  Seamlabs TaskTests
 //
-//  Created by Mariam on 04/09/2023.
+//  Created by Mariam on 08/09/2023.
 //
 
 import XCTest
-@testable import Seamlabs_Task
 
-final class Seamlabs_TaskTests: XCTestCase {
+final class HomeUseCaseTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
