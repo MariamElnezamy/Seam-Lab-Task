@@ -8,18 +8,13 @@
 import Foundation
 import Combine
 
-public protocol APIServiceProtocol {
-    
-    var requestTimeOut: Float { get }
-    func request<T: Codable>(_ req: NetworkRequest) -> AnyPublisher<T, NetworkError>
-}
 
 
 public class APIService: APIServiceProtocol {
     
     public var requestTimeOut: Float = 30
     
-    public func request<T>(_ req: NetworkRequest) -> AnyPublisher<T, NetworkError>
+    public func request<T>(_ req: APIBuilder) -> AnyPublisher<T, NetworkError>
     where T: Decodable, T: Encodable {
         let sessionConfig = URLSessionConfiguration.default
         sessionConfig.timeoutIntervalForRequest = TimeInterval(req.requestTimeOut ?? requestTimeOut)

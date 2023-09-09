@@ -15,7 +15,7 @@ extension Environment {
     var serviceBaseUrl: String {
         switch self {
         case .development:
-            return "\(APIConstants.baseURL.rawValue + APIConstants.home.rawValue)"
+            return "\(APIConstants.baseURL.rawValue)"
         }
     }
 }

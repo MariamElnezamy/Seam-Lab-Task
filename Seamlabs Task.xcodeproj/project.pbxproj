@@ -7,16 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		547819B02AA96323006CFD59 /* DetailsHomeViewController+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819AF2AA96323006CFD59 /* DetailsHomeViewController+Properties.swift */; };
+		547819B42AA96959006CFD59 /* HomeViewController+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819B32AA96959006CFD59 /* HomeViewController+Properties.swift */; };
+		547819B72AA96ED4006CFD59 /* MockHomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819B62AA96ED4006CFD59 /* MockHomeUseCase.swift */; };
+		547819BB2AA97000006CFD59 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819BA2AA97000006CFD59 /* MockData.swift */; };
+		547819C02AA973AB006CFD59 /* HomeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819BF2AA973AB006CFD59 /* HomeServiceTests.swift */; };
+		547819C52AA9762C006CFD59 /* HomeRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819C42AA9762C006CFD59 /* HomeRepositoryTests.swift */; };
+		547819C92AA9AF13006CFD59 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819C82AA9AF13006CFD59 /* NetworkError.swift */; };
+		547819CF2AA9B09E006CFD59 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819CE2AA9B09E006CFD59 /* APIServiceProtocol.swift */; };
+		547819D42AA9B2DB006CFD59 /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819D32AA9B2DB006CFD59 /* HomeRequest.swift */; };
+		547819DE2AA9F4F3006CFD59 /* MockHomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819C12AA97448006CFD59 /* MockHomeService.swift */; };
+		547819E22AA9FA8C006CFD59 /* @Mock-Home.json in Resources */ = {isa = PBXBuildFile; fileRef = 547819E12AA9FA8C006CFD59 /* @Mock-Home.json */; };
+		547819E72AAADAE9006CFD59 /* HomeUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819E62AAADAE9006CFD59 /* HomeUseCaseTests.swift */; };
+		547819E92AAADB99006CFD59 /* MockHomeRepositry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819E82AAADB99006CFD59 /* MockHomeRepositry.swift */; };
+		547819EB2AAADD2E006CFD59 /* HomeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819EA2AAADD2E006CFD59 /* HomeServiceProtocol.swift */; };
+		547819ED2AAADD5A006CFD59 /* HomeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819EC2AAADD5A006CFD59 /* HomeRepositoryProtocol.swift */; };
+		547819EF2AAADD87006CFD59 /* HomeUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819EE2AAADD87006CFD59 /* HomeUseCaseProtocol.swift */; };
+		547819F12AAC4A15006CFD59 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547819F02AAC4A15006CFD59 /* MockAPIService.swift */; };
 		54D149762AA611F600F3296E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149752AA611F600F3296E /* AppDelegate.swift */; };
 		54D149782AA611F600F3296E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149772AA611F600F3296E /* SceneDelegate.swift */; };
-		54D1497A2AA611F600F3296E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149792AA611F600F3296E /* ViewController.swift */; };
+		54D1497A2AA611F600F3296E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149792AA611F600F3296E /* HomeViewController.swift */; };
 		54D1497D2AA611F600F3296E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D1497B2AA611F600F3296E /* Main.storyboard */; };
-		54D149802AA611F600F3296E /* Seamlabs_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54D1497E2AA611F600F3296E /* Seamlabs_Task.xcdatamodeld */; };
 		54D149822AA611F700F3296E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D149812AA611F700F3296E /* Assets.xcassets */; };
 		54D149852AA611F700F3296E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D149832AA611F700F3296E /* LaunchScreen.storyboard */; };
 		54D149902AA611F700F3296E /* Seamlabs_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D1498F2AA611F700F3296E /* Seamlabs_TaskTests.swift */; };
 		54D1499A2AA611F700F3296E /* Seamlabs_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149992AA611F700F3296E /* Seamlabs_TaskUITests.swift */; };
 		54D1499C2AA611F700F3296E /* Seamlabs_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D1499B2AA611F700F3296E /* Seamlabs_TaskUITestsLaunchTests.swift */; };
+		54D149B12AA613ED00F3296E /* HomeViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149B02AA613ED00F3296E /* HomeViewController+TableView.swift */; };
+		54D149B72AA6154000F3296E /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149B52AA6154000F3296E /* HomeTableViewCell.swift */; };
+		54D149B82AA6154000F3296E /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D149B62AA6154000F3296E /* HomeTableViewCell.xib */; };
+		54D149C42AA68CAD00F3296E /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149C32AA68CAD00F3296E /* HomeModel.swift */; };
+		54D149C62AA691A300F3296E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149C52AA691A300F3296E /* HomeViewModel.swift */; };
+		54D149C82AA691BC00F3296E /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149C72AA691BC00F3296E /* HomeUseCase.swift */; };
+		54D149CA2AA691D400F3296E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149C92AA691D400F3296E /* APIService.swift */; };
+		54D149CC2AA691F700F3296E /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149CB2AA691F700F3296E /* HomeRepository.swift */; };
+		54D149CF2AA6997000F3296E /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149CE2AA6997000F3296E /* APIConstants.swift */; };
+		54D149DA2AA6BB8F00F3296E /* DisposeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149D92AA6BB8F00F3296E /* DisposeObject.swift */; };
+		54D149DE2AA744EF00F3296E /* APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149DD2AA744EF00F3296E /* APIBuilder.swift */; };
+		54D149E02AA7458800F3296E /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149DF2AA7458800F3296E /* Endpoints.swift */; };
+		54D149E22AA7461900F3296E /* Environments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149E12AA7461900F3296E /* Environments.swift */; };
+		54D149E42AA7469B00F3296E /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149E32AA7469B00F3296E /* HomeService.swift */; };
+		54D149E62AA7EDE500F3296E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149E52AA7EDE500F3296E /* Constants.swift */; };
+		54D149EF2AA809F600F3296E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 54D149EE2AA809F600F3296E /* Kingfisher */; };
+		54D149F12AA81A3500F3296E /* DetailsHomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D149F02AA81A3500F3296E /* DetailsHomeView.storyboard */; };
+		54D149F52AA81ADD00F3296E /* DetailsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D149F42AA81ADD00F3296E /* DetailsHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +71,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		547819AF2AA96323006CFD59 /* DetailsHomeViewController+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailsHomeViewController+Properties.swift"; sourceTree = "<group>"; };
+		547819B32AA96959006CFD59 /* HomeViewController+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Properties.swift"; sourceTree = "<group>"; };
+		547819B62AA96ED4006CFD59 /* MockHomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeUseCase.swift; sourceTree = "<group>"; };
+		547819BA2AA97000006CFD59 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		547819BF2AA973AB006CFD59 /* HomeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceTests.swift; sourceTree = "<group>"; };
+		547819C12AA97448006CFD59 /* MockHomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeService.swift; sourceTree = "<group>"; };
+		547819C42AA9762C006CFD59 /* HomeRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepositoryTests.swift; sourceTree = "<group>"; };
+		547819C82AA9AF13006CFD59 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		547819CE2AA9B09E006CFD59 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
+		547819D32AA9B2DB006CFD59 /* HomeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
+		547819E12AA9FA8C006CFD59 /* @Mock-Home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "@Mock-Home.json"; sourceTree = "<group>"; };
+		547819E62AAADAE9006CFD59 /* HomeUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCaseTests.swift; sourceTree = "<group>"; };
+		547819E82AAADB99006CFD59 /* MockHomeRepositry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeRepositry.swift; sourceTree = "<group>"; };
+		547819EA2AAADD2E006CFD59 /* HomeServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceProtocol.swift; sourceTree = "<group>"; };
+		547819EC2AAADD5A006CFD59 /* HomeRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepositoryProtocol.swift; sourceTree = "<group>"; };
+		547819EE2AAADD87006CFD59 /* HomeUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCaseProtocol.swift; sourceTree = "<group>"; };
+		547819F02AAC4A15006CFD59 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
 		54D149722AA611F600F3296E /* Seamlabs Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seamlabs Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D149752AA611F600F3296E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54D149772AA611F600F3296E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54D149792AA611F600F3296E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54D149792AA611F600F3296E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		54D1497C2AA611F600F3296E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54D1497F2AA611F600F3296E /* Seamlabs_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seamlabs_Task.xcdatamodel; sourceTree = "<group>"; };
 		54D149812AA611F700F3296E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54D149842AA611F700F3296E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54D149862AA611F700F3296E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +101,23 @@
 		54D149952AA611F700F3296E /* Seamlabs TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seamlabs TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D149992AA611F700F3296E /* Seamlabs_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seamlabs_TaskUITests.swift; sourceTree = "<group>"; };
 		54D1499B2AA611F700F3296E /* Seamlabs_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seamlabs_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54D149B02AA613ED00F3296E /* HomeViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+TableView.swift"; sourceTree = "<group>"; };
+		54D149B52AA6154000F3296E /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		54D149B62AA6154000F3296E /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		54D149C32AA68CAD00F3296E /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		54D149C52AA691A300F3296E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		54D149C72AA691BC00F3296E /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
+		54D149C92AA691D400F3296E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		54D149CB2AA691F700F3296E /* HomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		54D149CE2AA6997000F3296E /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		54D149D92AA6BB8F00F3296E /* DisposeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeObject.swift; sourceTree = "<group>"; };
+		54D149DD2AA744EF00F3296E /* APIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBuilder.swift; sourceTree = "<group>"; };
+		54D149DF2AA7458800F3296E /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		54D149E12AA7461900F3296E /* Environments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environments.swift; sourceTree = "<group>"; };
+		54D149E32AA7469B00F3296E /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		54D149E52AA7EDE500F3296E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		54D149F02AA81A3500F3296E /* DetailsHomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailsHomeView.storyboard; sourceTree = "<group>"; };
+		54D149F42AA81ADD00F3296E /* DetailsHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D149EF2AA809F600F3296E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +146,155 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54748F782AAC647400036F64 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				54D149DF2AA7458800F3296E /* Endpoints.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		547819B52AA96EA0006CFD59 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				547819C12AA97448006CFD59 /* MockHomeService.swift */,
+				547819F02AAC4A15006CFD59 /* MockAPIService.swift */,
+				547819E82AAADB99006CFD59 /* MockHomeRepositry.swift */,
+				547819B62AA96ED4006CFD59 /* MockHomeUseCase.swift */,
+				547819E12AA9FA8C006CFD59 /* @Mock-Home.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		547819B82AA96EE3006CFD59 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				547819E32AAADA82006CFD59 /* Data */,
+				547819E42AAADAA1006CFD59 /* Domain */,
+				547819BC2AA97358006CFD59 /* Presentation */,
+				547819B52AA96EA0006CFD59 /* Mocks */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		547819B92AA96FD9006CFD59 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				547819BA2AA97000006CFD59 /* MockData.swift */,
+			);
+			path = "Mock Data";
+			sourceTree = "<group>";
+		};
+		547819BC2AA97358006CFD59 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				547819BD2AA97366006CFD59 /* View Model */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		547819BD2AA97366006CFD59 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				54D1498F2AA611F700F3296E /* Seamlabs_TaskTests.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		547819BE2AA97381006CFD59 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				547819BF2AA973AB006CFD59 /* HomeServiceTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		547819C32AA975EB006CFD59 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				547819C42AA9762C006CFD59 /* HomeRepositoryTests.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		547819C62AA9AEE7006CFD59 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				547819D02AA9B18A006CFD59 /* Environment */,
+				547819CC2AA9B043006CFD59 /* Network */,
+				547819C72AA9AF02006CFD59 /* Error */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		547819C72AA9AF02006CFD59 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				547819C82AA9AF13006CFD59 /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		547819CC2AA9B043006CFD59 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				54748F782AAC647400036F64 /* Endpoint */,
+				547819D52AA9B4BC006CFD59 /* Builder */,
+				547819CD2AA9B052006CFD59 /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		547819CD2AA9B052006CFD59 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				54D149C92AA691D400F3296E /* APIService.swift */,
+				547819CE2AA9B09E006CFD59 /* APIServiceProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		547819D02AA9B18A006CFD59 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				54D149E12AA7461900F3296E /* Environments.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		547819D52AA9B4BC006CFD59 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				54D149DD2AA744EF00F3296E /* APIBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		547819E32AAADA82006CFD59 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				547819BE2AA97381006CFD59 /* Service */,
+				547819C32AA975EB006CFD59 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		547819E42AAADAA1006CFD59 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				547819E52AAADAB9006CFD59 /* Use case */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		547819E52AAADAB9006CFD59 /* Use case */ = {
+			isa = PBXGroup;
+			children = (
+				547819E62AAADAE9006CFD59 /* HomeUseCaseTests.swift */,
+			);
+			path = "Use case";
+			sourceTree = "<group>";
+		};
 		54D149692AA611F600F3296E = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +318,14 @@
 		54D149742AA611F600F3296E /* Seamlabs Task */ = {
 			isa = PBXGroup;
 			children = (
+				54D149AA2AA6123600F3296E /* Utilities */,
+				54D149A82AA6120F00F3296E /* Home */,
+				54D149A92AA6122100F3296E /* DetailsHome */,
 				54D149752AA611F600F3296E /* AppDelegate.swift */,
 				54D149772AA611F600F3296E /* SceneDelegate.swift */,
-				54D149792AA611F600F3296E /* ViewController.swift */,
-				54D1497B2AA611F600F3296E /* Main.storyboard */,
 				54D149812AA611F700F3296E /* Assets.xcassets */,
 				54D149832AA611F700F3296E /* LaunchScreen.storyboard */,
 				54D149862AA611F700F3296E /* Info.plist */,
-				54D1497E2AA611F600F3296E /* Seamlabs_Task.xcdatamodeld */,
 			);
 			path = "Seamlabs Task";
 			sourceTree = "<group>";
@@ -116,7 +333,8 @@
 		54D1498E2AA611F700F3296E /* Seamlabs TaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				54D1498F2AA611F700F3296E /* Seamlabs_TaskTests.swift */,
+				547819B92AA96FD9006CFD59 /* Mock Data */,
+				547819B82AA96EE3006CFD59 /* Home */,
 			);
 			path = "Seamlabs TaskTests";
 			sourceTree = "<group>";
@@ -128,6 +346,193 @@
 				54D1499B2AA611F700F3296E /* Seamlabs_TaskUITestsLaunchTests.swift */,
 			);
 			path = "Seamlabs TaskUITests";
+			sourceTree = "<group>";
+		};
+		54D149A82AA6120F00F3296E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				54D149BA2AA68A8E00F3296E /* Data */,
+				54D149BB2AA68ADB00F3296E /* Domain */,
+				54D149BC2AA68B0D00F3296E /* Presentation */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		54D149A92AA6122100F3296E /* DetailsHome */ = {
+			isa = PBXGroup;
+			children = (
+				54D149F22AA81A8800F3296E /* Views */,
+				54D149F02AA81A3500F3296E /* DetailsHomeView.storyboard */,
+			);
+			path = DetailsHome;
+			sourceTree = "<group>";
+		};
+		54D149AA2AA6123600F3296E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				547819C62AA9AEE7006CFD59 /* Managers */,
+				54D149D72AA6BB5D00F3296E /* Bases */,
+				54D149CD2AA6992800F3296E /* Constants */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		54D149B22AA614BB00F3296E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54D1497B2AA611F600F3296E /* Main.storyboard */,
+				54D149B42AA614E800F3296E /* Cells */,
+				54D149B32AA614CC00F3296E /* View Controller */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54D149B32AA614CC00F3296E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54D149792AA611F600F3296E /* HomeViewController.swift */,
+				547819B32AA96959006CFD59 /* HomeViewController+Properties.swift */,
+				54D149B02AA613ED00F3296E /* HomeViewController+TableView.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		54D149B42AA614E800F3296E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				54D149B92AA6154C00F3296E /* Home Cell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		54D149B92AA6154C00F3296E /* Home Cell */ = {
+			isa = PBXGroup;
+			children = (
+				54D149B52AA6154000F3296E /* HomeTableViewCell.swift */,
+				54D149B62AA6154000F3296E /* HomeTableViewCell.xib */,
+			);
+			path = "Home Cell";
+			sourceTree = "<group>";
+		};
+		54D149BA2AA68A8E00F3296E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				54D149BD2AA68B4300F3296E /* Service */,
+				54D149BE2AA68B4E00F3296E /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		54D149BB2AA68ADB00F3296E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				54D149BF2AA68B8500F3296E /* Use Case */,
+				54D149C02AA68BA100F3296E /* Entities */,
+				54D149C12AA68BC000F3296E /* Interfaces */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		54D149BC2AA68B0D00F3296E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				54D149C22AA68BE200F3296E /* View Model */,
+				54D149B22AA614BB00F3296E /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		54D149BD2AA68B4300F3296E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				54D149E32AA7469B00F3296E /* HomeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		54D149BE2AA68B4E00F3296E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				54D149CB2AA691F700F3296E /* HomeRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		54D149BF2AA68B8500F3296E /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				54D149C72AA691BC00F3296E /* HomeUseCase.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		54D149C02AA68BA100F3296E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				54D149C32AA68CAD00F3296E /* HomeModel.swift */,
+				547819D32AA9B2DB006CFD59 /* HomeRequest.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		54D149C12AA68BC000F3296E /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				547819EA2AAADD2E006CFD59 /* HomeServiceProtocol.swift */,
+				547819EC2AAADD5A006CFD59 /* HomeRepositoryProtocol.swift */,
+				547819EE2AAADD87006CFD59 /* HomeUseCaseProtocol.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		54D149C22AA68BE200F3296E /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				54D149C52AA691A300F3296E /* HomeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		54D149CD2AA6992800F3296E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				54D149CE2AA6997000F3296E /* APIConstants.swift */,
+				54D149E52AA7EDE500F3296E /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		54D149D72AA6BB5D00F3296E /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				54D149D82AA6BB7100F3296E /* DisposeObject */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		54D149D82AA6BB7100F3296E /* DisposeObject */ = {
+			isa = PBXGroup;
+			children = (
+				54D149D92AA6BB8F00F3296E /* DisposeObject.swift */,
+			);
+			path = DisposeObject;
+			sourceTree = "<group>";
+		};
+		54D149F22AA81A8800F3296E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54D149F32AA81A9800F3296E /* View Controller */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54D149F32AA81A9800F3296E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54D149F42AA81ADD00F3296E /* DetailsHomeViewController.swift */,
+				547819AF2AA96323006CFD59 /* DetailsHomeViewController+Properties.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +551,9 @@
 			dependencies = (
 			);
 			name = "Seamlabs Task";
+			packageProductDependencies = (
+				54D149EE2AA809F600F3296E /* Kingfisher */,
+			);
 			productName = "Seamlabs Task";
 			productReference = 54D149722AA611F600F3296E /* Seamlabs Task.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +626,9 @@
 				Base,
 			);
 			mainGroup = 54D149692AA611F600F3296E;
+			packageReferences = (
+				54D149ED2AA809F600F3296E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 54D149732AA611F600F3296E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +647,8 @@
 			files = (
 				54D149852AA611F700F3296E /* LaunchScreen.storyboard in Resources */,
 				54D149822AA611F700F3296E /* Assets.xcassets in Resources */,
+				54D149B82AA6154000F3296E /* HomeTableViewCell.xib in Resources */,
+				54D149F12AA81A3500F3296E /* DetailsHomeView.storyboard in Resources */,
 				54D1497D2AA611F600F3296E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +657,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547819E22AA9FA8C006CFD59 /* @Mock-Home.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +675,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54D149802AA611F600F3296E /* Seamlabs_Task.xcdatamodeld in Sources */,
-				54D1497A2AA611F600F3296E /* ViewController.swift in Sources */,
+				547819EB2AAADD2E006CFD59 /* HomeServiceProtocol.swift in Sources */,
+				54D149C82AA691BC00F3296E /* HomeUseCase.swift in Sources */,
+				547819ED2AAADD5A006CFD59 /* HomeRepositoryProtocol.swift in Sources */,
+				54D149E62AA7EDE500F3296E /* Constants.swift in Sources */,
+				547819B42AA96959006CFD59 /* HomeViewController+Properties.swift in Sources */,
+				547819EF2AAADD87006CFD59 /* HomeUseCaseProtocol.swift in Sources */,
+				54D149B72AA6154000F3296E /* HomeTableViewCell.swift in Sources */,
+				547819B02AA96323006CFD59 /* DetailsHomeViewController+Properties.swift in Sources */,
+				54D1497A2AA611F600F3296E /* HomeViewController.swift in Sources */,
+				547819D42AA9B2DB006CFD59 /* HomeRequest.swift in Sources */,
+				54D149F52AA81ADD00F3296E /* DetailsHomeViewController.swift in Sources */,
+				54D149CA2AA691D400F3296E /* APIService.swift in Sources */,
+				547819CF2AA9B09E006CFD59 /* APIServiceProtocol.swift in Sources */,
+				54D149DE2AA744EF00F3296E /* APIBuilder.swift in Sources */,
+				54D149E42AA7469B00F3296E /* HomeService.swift in Sources */,
+				54D149C62AA691A300F3296E /* HomeViewModel.swift in Sources */,
+				54D149C42AA68CAD00F3296E /* HomeModel.swift in Sources */,
 				54D149762AA611F600F3296E /* AppDelegate.swift in Sources */,
+				54D149CF2AA6997000F3296E /* APIConstants.swift in Sources */,
+				54D149B12AA613ED00F3296E /* HomeViewController+TableView.swift in Sources */,
+				547819C92AA9AF13006CFD59 /* NetworkError.swift in Sources */,
+				54D149E22AA7461900F3296E /* Environments.swift in Sources */,
 				54D149782AA611F600F3296E /* SceneDelegate.swift in Sources */,
+				54D149CC2AA691F700F3296E /* HomeRepository.swift in Sources */,
+				54D149E02AA7458800F3296E /* Endpoints.swift in Sources */,
+				54D149DA2AA6BB8F00F3296E /* DisposeObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +708,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				547819C52AA9762C006CFD59 /* HomeRepositoryTests.swift in Sources */,
+				547819B72AA96ED4006CFD59 /* MockHomeUseCase.swift in Sources */,
+				547819BB2AA97000006CFD59 /* MockData.swift in Sources */,
+				547819E92AAADB99006CFD59 /* MockHomeRepositry.swift in Sources */,
+				547819C02AA973AB006CFD59 /* HomeServiceTests.swift in Sources */,
+				547819DE2AA9F4F3006CFD59 /* MockHomeService.swift in Sources */,
+				547819F12AAC4A15006CFD59 /* MockAPIService.swift in Sources */,
+				547819E72AAADAE9006CFD59 /* HomeUseCaseTests.swift in Sources */,
 				54D149902AA611F700F3296E /* Seamlabs_TaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -607,18 +1051,24 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		54D1497E2AA611F600F3296E /* Seamlabs_Task.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				54D1497F2AA611F600F3296E /* Seamlabs_Task.xcdatamodel */,
-			);
-			currentVersion = 54D1497F2AA611F600F3296E /* Seamlabs_Task.xcdatamodel */;
-			path = Seamlabs_Task.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		54D149ED2AA809F600F3296E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54D149EE2AA809F600F3296E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54D149ED2AA809F600F3296E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54D1496A2AA611F600F3296E /* Project object */;
 }

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+public enum Constants: String {
+    
+    case key_API = "798fcc650755491e9c45a86221cbcf19"
+}

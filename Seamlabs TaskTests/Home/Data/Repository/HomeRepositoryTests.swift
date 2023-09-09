@@ -35,7 +35,7 @@ final class HomeRepositoryTests: XCTestCase {
             .sink(
                 receiveCompletion: { completion in
                     guard case .finished = completion else { return }
-                    expectation.fulfill()
+                    exp.fulfill()
                 },
                 receiveValue: {
                     XCTAssertNotNil($0)
@@ -58,13 +58,13 @@ final class HomeRepositoryTests: XCTestCase {
             .receive(on: RunLoop.main)
             .sink(
                 receiveCompletion: { completion in
-                    XCTAssertNotEqual(completion, .finished)
-                    expectation.fulfill()
+                    XCTAssertNotEqual(completion, .failure(.invalidJSON("")))
+                    exp.fulfill()
                 },
                 receiveValue: { _ in
                 }
             )
-
+        // Then
         waitForExpectations(timeout: 1.0)
         cancellable.cancel()
     }

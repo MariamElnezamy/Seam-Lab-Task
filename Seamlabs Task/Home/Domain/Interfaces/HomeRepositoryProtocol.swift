@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import Combine
+
+protocol HomeRepositoryProtocol {
+    func getHome() -> AnyPublisher<HomeModel, NetworkError>
+}

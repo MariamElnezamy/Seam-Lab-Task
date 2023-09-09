@@ -1,5 +1,5 @@
 //
-//  NetworkRequest.swift
+//  APIBuilder.swift
 //  Seamlabs Task
 //
 //  Created by Mariam on 05/09/2023.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct NetworkRequest {
+public struct APIBuilder {
     let url: String
     let headers: [String: String]?
     let body: Data?
@@ -48,6 +48,8 @@ public struct NetworkRequest {
         return urlRequest
     }
 }
+
+
 
 public enum HTTPMethod: String {
     case GET

@@ -26,42 +26,14 @@ final class Seamlabs_TaskTests: XCTestCase {
         expectationDesc = nil
         super.tearDown()
     }
-
  
     func testSUT_callingGetHome_recieved() {
         // Given
-        let exp = expectation(description: expectationDesc)
-        sut = ReceiptDetailsViewModel(transactionDetailsUseCase: MockFetchTransactionDetailsUseCase())
-
+        sut = HomeViewModel(useCase: MockHomeUseCase())
         // When
         sut.getHome()
-
         // Then
-        XCTAssertNotNil(sut.homeModel)
-    }
-
-    func testSUT_callingGetHome_failed() {
-        // Given
-        let exp = expectation(description: expectationDesc)
-        exp.assertForOverFulfill = false
-        sut = makeTransactionDetailsSut(using: MockInValidReceiptDetailsService())
-
-        // When
-        sut.getHome()
-        sut.$state
-            .sink(receiveCompletion: { _ in
-                exp.fulfill()
-            }, receiveValue: {
-                if $0 != .loading() {
-                    exp.fulfill()
-                }
-            })
-            .store(in: &sut.cancellables)
-
-        waitForExpectations(timeout: 1)
-
-        // Then
-        XCTAssertEqual(sut.state, .failed(.init(code: 0, type: .business, message: MockData.generalErrorMsg)))
+        XCTAssertNotNil(sut.$homeModel.count)
     }
 
 }

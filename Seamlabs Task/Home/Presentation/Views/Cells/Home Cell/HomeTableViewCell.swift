@@ -6,21 +6,18 @@
 //
 
 import UIKit
+import Kingfisher
 
 class HomeTableViewCell: UITableViewCell {
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var customImage: UIImageView!
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
+    func config(articl: Articles){
+        name.text = articl.title ?? "Default Title"
+        name.numberOfLines = 0
+        customImage.kf.setImage(with: URL(string: articl.urlToImage ?? ""), placeholder: UIImage(systemName: "photo"))
+        customImage.contentMode = .scaleToFill
+    }
+   
 }

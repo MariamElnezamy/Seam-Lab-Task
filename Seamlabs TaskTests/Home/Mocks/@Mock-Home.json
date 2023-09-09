@@ -1,10 +1,1306 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
-    </dependencies>
-    <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
-        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-    </objects>
-</document>
+{
+    "status": "ok",
+    "totalResults": 12437,
+    "articles": [
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Andrew J. Hawkins",
+            "title": "It’s Tesla versus everyone else in the race for EV dominance",
+            "description": "Episode three of Land of the Giants: The Tesla Shock Wave looks at how Tesla stacks up against the competition in several key categories, including design, charging, quality, and brand.",
+            "url": "https://www.theverge.com/2023/8/9/23824868/tesla-ev-competition-market-share-land-of-the-giants",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/jEiD7qMvDSKUATYCUCxC8uxFg9U=/0x0:7553x5194/1200x628/filters:focal(3777x2597:3778x2598)/cdn.vox-cdn.com/uploads/chorus_asset/file/24838337/1574753385.jpg",
+            "publishedAt": "2023-08-09T12:00:00Z",
+            "content": "Its Tesla versus everyone else in the race for EV dominance\r\nIts Tesla versus everyone else in the race for EV dominance\r\n / In this episode of Land of the Giants: The Tesla Shock Wave, Teslas share … [+3542 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Steve Dent",
+            "title": "Tesla says data breach that affected over 75,000 people was caused by 'insider wrongdoing'",
+            "description": "A Tesla data breach earlier this year affecting more than 75,000 people was caused by \"insider wrongdoing,\" according to a notification on Maine's Attorney General website. The 75,735 people impacted were likely current or former Tesla employees. \"While we ha…",
+            "url": "https://www.engadget.com/tesla-says-data-breach-that-affected-over-75000-people-was-caused-by-insider-wrongdoing-121756644.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/7Hsle0vXmbKvGYQ0l5Fysg--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2019-07/4caf52a0-ac6a-11e9-9ff5-1cba91753437.cf.jpg",
+            "publishedAt": "2023-08-21T12:17:56Z",
+            "content": "A Tesla data breach earlier this year affecting more than 75,000 people was caused by \"insider wrongdoing,\" according to a notification on Maine's Attorney General website. The 75,735 people impacted… [+1920 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Umar Shakir",
+            "title": "Tesla points to ‘insider wrongdoing’ as cause of massive employee data leak",
+            "description": "Tesla has determined that two former employees are allegedly responsible for leaking 100GB of company data that contains social security numbers and other information on more than 75,000 employees.",
+            "url": "https://www.theverge.com/2023/8/21/23839940/tesla-data-leak-inside-job-handelsblatt",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/4CUig2HkGRs-RYrXLTlpXV4TBFA=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23986646/acastro_STK086_01.jpg",
+            "publishedAt": "2023-08-21T16:54:42Z",
+            "content": "Tesla points to insider wrongdoing as cause of massive employee data leak\r\nTesla points to insider wrongdoing as cause of massive employee data leak\r\n / Teslas massive data leak in May includes perso… [+2286 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Lawrence Bonk",
+            "title": "Tesla once again slashes Model S and X prices by nearly 20 percent",
+            "description": "Tesla’s Model S and X electric vehicles have already received two substantial price cuts\r\n throughout the year, but now there’s another one to entice consumers hesitant to jump on the EV train. Tesla has cut prices on these cars by 15 to 19 percent, starting …",
+            "url": "https://www.engadget.com/tesla-once-again-slashes-model-s-and-x-prices-by-nearly-20-percent-164727753.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/tMHYzKMLq1n8N_gboAsEWg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-09/e463f970-48e2-11ee-bbba-01bc1a1b17ef",
+            "publishedAt": "2023-09-01T16:47:27Z",
+            "content": "Teslas Model S and X electric vehicles have already received two substantial price cuts\r\n throughout the year, but now theres another one to entice consumers hesitant to jump on the EV train. Tesla h… [+1830 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Jon Fingas",
+            "title": "Tesla's iPhone app can now control your car through Siri",
+            "description": "You now have an easier way to control your Tesla from your iPhone. Not a Tesla Appnotes the latest version of Tesla's iOS software now supports Shortcuts actions, making some common tasks available through Siri in addition to on-screen taps and widgets. You c…",
+            "url": "https://www.engadget.com/teslas-iphone-app-can-now-control-your-car-through-siri-144718131.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/calVFz55LH7VgTsonXmmng--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-05/5eda7f20-03ac-11ee-be3d-d66858daefbb.cf.jpg",
+            "publishedAt": "2023-08-21T14:47:18Z",
+            "content": "You now have an easier way to control your Tesla from your iPhone. Not a Tesla Appnotes the latest version of Tesla's iOS software now supports Shortcuts actions, making some common tasks available t… [+1617 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Daniel Cooper",
+            "title": "The Morning After: Tesla offers cheaper Model S and Model X options with shorter range",
+            "description": "Tesla has quietly launched new – much cheaper – Model S and X variants with a shorter quoted range\r\n. Standard Range Teslas are around $10,000 less than the base model, but with ranges cut by 80 and 79 miles, respectively. Both cars are half a second slower 0…",
+            "url": "https://www.engadget.com/the-morning-after-tesla-offers-cheaper-model-s-and-model-x-options-with-shorter-range-111540531.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/XvLQ5dOVuDrQwyTI6GgMbw--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-08/615770f0-3c1e-11ee-9fea-99762e8ff431.cf.jpg",
+            "publishedAt": "2023-08-16T11:15:40Z",
+            "content": "Tesla has quietly launched new much cheaper Model S and X variants with a shorter quoted range\r\n. Standard Range Teslas are around $10,000 less than the base model, but with ranges cut by 80 and 79 m… [+3702 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Steve Dent",
+            "title": "Mercedes-Benz concept EV offers rapid charging and Tesla-beating range",
+            "description": "Mercedes-Benz has unveiled its \"close-to-production\" Concept CLA Class EV, boasting of very long range and rapid charging via an 800-volt architecture. The four-door sedan is the first in the company's line of Mercedes-Benz Modular Architecture (MMA) EVs, whi…",
+            "url": "https://www.engadget.com/mercedes-benz-concept-ev-offers-rapid-charging-and-tesla-beating-range-075800456.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Tb3MdU6AywSRoY4DE3iKag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2023-09/496be130-4aef-11ee-bfd7-04f8d91c88ae",
+            "publishedAt": "2023-09-04T07:58:00Z",
+            "content": "Mercedes-Benz has unveiled its \"close-to-production\" Concept CLA Class EV, boasting of very long range and rapid charging via an 800-volt architecture. The four-door sedan is the first in the company… [+2621 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Mat Smith",
+            "title": "The Morning After: The voice of Mario is stepping away from games after nearly three decades",
+            "description": "After voicing Mario for 27 years, Charles Martinet will no longer play the plumber. Nintendo announced in a tweet yesterday that he'll move into a newly created Mario Ambassador role and \"continue to travel the world sharing the joy of Mario,\" the company sai…",
+            "url": "https://www.engadget.com/the-morning-after-the-voice-of-mario-is-stepping-away-from-games-after-nearly-three-decades-111640482.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/avA_V4S_5AZz8IEondRKvQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://o.aolcdn.com/hss/storage/midas/20ca67d2ffbbbcb68cbfd8ba02b7d973/204506788/download+%285%29.jpeg.cf.jpg",
+            "publishedAt": "2023-08-22T11:16:40Z",
+            "content": "After voicing Mario for 27 years, Charles Martinet will no longer play the plumber. Nintendo announced in a tweet yesterday that he'll move into a newly created Mario Ambassador role and \"continue to… [+3530 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Umar Shakir",
+            "title": "EV charging in the US is still a no-good bad time — and somehow getting worse",
+            "description": "JD Power’s latest survey of thousands of EV owners find they still aren’t satisfied by the US charging infrastructure. Satisfaction on both Level 2 and DC fast-charging dropped, but Tesla Supercharger satisfaction increased.",
+            "url": "https://www.theverge.com/2023/8/16/23833337/ev-charging-unreliable-worsening-survey-jd-power",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/ymD8AIP95EJakOw4fF4hBxxg-mk=/0x0:3024x2016/1200x628/filters:focal(1512x1008:1513x1009)/cdn.vox-cdn.com/uploads/chorus_asset/file/24733284/1F11A77C_B1E5_4CD4_8A92_4A61A220EF10.JPG",
+            "publishedAt": "2023-08-16T12:00:00Z",
+            "content": "EV charging in the US is still a no-good bad time and somehow getting worse\r\nEV charging in the US is still a no-good bad time and somehow getting worse\r\n / A new JD Power survey shows EV owners over… [+4671 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Casey Newton",
+            "title": "Elon Musk keeps getting creepier",
+            "description": "Elon Musk this week threatened to show up at Mark Zuckerberg’s house and challenge him to a fight, live streaming all the way. It’s the latest concerning behavior from the man above SpaceX, Tesla, and more.",
+            "url": "https://www.theverge.com/2023/8/15/23832701/elon-musk-lies-mark-zuckerberg-fight-creepy",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/E4RqlzEcHjLqakAu7mpdG_GgSYE=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24085014/STK171_L_Allen_Musk_03.jpg",
+            "publishedAt": "2023-08-15T16:30:00Z",
+            "content": "Elon Musk keeps getting creepier\r\nElon Musk keeps getting creepier\r\n / Caught in a series of lies about his willingness to fight Mark Zuckerberg, the billionaires disturbing spiral accelerates.\r\nByCa… [+7256 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Kevin Hurler",
+            "title": "Tesla Speeds Toward Twin Trials Over Autopilot-Related Crashes",
+            "description": "Tesla has certainly been overly ambitious in advertising an Autopilot feature that doesn’t really work, and now it’s facing legal ramifications over its cars’ self-driving capabilities. The company is in the middle of two lawsuits, with trials scheduled for t…",
+            "url": "https://gizmodo.com/tesla-twin-trials-over-autopilot-related-crashes-1850779771",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/8ee7972829e6b00c0ac1d3f84f804d79.jpg",
+            "publishedAt": "2023-08-28T14:40:00Z",
+            "content": "Tesla has certainly been overly ambitious in advertising an Autopilot feature that doesnt really work, and now its facing legal ramifications over its cars self-driving capabilities. The company is i… [+2076 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Tamara Warren",
+            "title": "The auto industry’s Congress member is worried about losing the EV race to China",
+            "description": "In an interview with The Verge, Rep. Debbie Dingell (D-MI) talks about the need to shift to electric vehicles, competition from China, and why Republicans oppose electrification.",
+            "url": "https://www.theverge.com/2023/9/1/23854230/debbie-dingell-interview-ev-china-tesla-gop",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/yn1TCAZ4d6uvtDv0CsnRTKN8BT4=/0x0:4855x3236/1200x628/filters:focal(2428x1618:2429x1619)/cdn.vox-cdn.com/uploads/chorus_asset/file/24887648/1472133860.jpg",
+            "publishedAt": "2023-09-01T13:00:00Z",
+            "content": "The auto industrys Congress member is worried about losing the EV race to China\r\nThe auto industrys Congress member is worried about losing the EV race to China\r\n / Rep. Debbie Dingell (D-MI) says th… [+6955 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Core Lithium gets notice from Tesla over failed deal - Reuters",
+            "description": "Core Lithium gets notice from Tesla over failed deal  Reuters",
+            "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMicWh0dHBzOi8vd3d3LnJldXRlcnMuY29tL2J1c2luZXNzL2F1dG9zLXRyYW5zcG9ydGF0aW9uL2NvcmUtbGl0aGl1bS1nZXRzLW5vdGljZS10ZXNsYS1vdmVyLWZhaWxlZC1kZWFsLTIwMjMtMDgtMTcv0gEA?oc%3D5%26hl%3Den-CA%26gl%3DCA%26ceid%3DCA:en&gl=FR&hl=en-CA&cm=2&pc=n&src=1",
+            "urlToImage": null,
+            "publishedAt": "2023-08-17T16:35:00Z",
+            "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Tesla names insider Taneja CFO as Kirkhorn steps down - Reuters",
+            "description": "Tesla names insider Taneja CFO as Kirkhorn steps down  Reuters",
+            "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5yZXV0ZXJzLmNvbS9idXNpbmVzcy9hdXRvcy10cmFuc3BvcnRhdGlvbi90ZXNsYS1jZm8temFjaGFyeS1raXJraG9ybi1zdGVwcy1kb3duLXJlcGxhY2VkLWJ5LXZhaWJoYXYtdGFuZWphLTIwMjMtMDgtMDcv0gEA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+            "urlToImage": null,
+            "publishedAt": "2023-08-07T13:57:00Z",
+            "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Breakingviews - Vietnam’s Tesla charges itself up for a big fall - Flipboard",
+            "description": "Breakingviews - Vietnam’s Tesla charges itself up for a big fall  Flipboard",
+            "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMieWh0dHBzOi8vZmxpcGJvYXJkLmNvbS9hcnRpY2xlL2JyZWFraW5ndmlld3MtLS12aWV0bmFtLXMtdGVzbGEtY2hhcmdlcy1pdHNlbGYtdXAtZm9yLWEtYmlnLWZhbGwvZi1hZWQ2MjQ4ZDcxJTJGcmV1dGVycy5jb23SAYQBaHR0cHM6Ly9mbGlwYm9hcmQuY29tL2FydGljbGUvYnJlYWtpbmd2aWV3cy0tLXZpZXRuYW0tcy10ZXNsYS1jaGFyZ2VzLWl0c2VsZi11cC1mb3ItYS1iaWctZmFsbC9mLWFlZDYyNDhkNzElMkZyZXV0ZXJzLmNvbT9mb3JtYXQ9YW1w?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+            "urlToImage": null,
+            "publishedAt": "2023-08-16T10:08:05Z",
+            "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Texas approves plan to mandate Tesla tech for EV chargers despite ... - Reuters",
+            "description": "Texas approves plan to mandate Tesla tech for EV chargers despite ...  Reuters",
+            "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMihwFodHRwczovL3d3dy5yZXV0ZXJzLmNvbS9idXNpbmVzcy9hdXRvcy10cmFuc3BvcnRhdGlvbi90ZXhhcy1hcHByb3Zlcy1wbGFuLW1hbmRhdGUtdGVzbGEtdGVjaC1ldi1jaGFyZ2Vycy1kZXNwaXRlLW9wcG9zaXRpb24tMjAyMy0wOC0xNi_SAQA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+            "urlToImage": null,
+            "publishedAt": "2023-08-16T15:55:00Z",
+            "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Breakingviews - Vietnam's Tesla charges itself up for a big fall - Reuters",
+            "description": "Breakingviews - Vietnam's Tesla charges itself up for a big fall  Reuters",
+            "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMiW2h0dHBzOi8vd3d3LnJldXRlcnMuY29tL2JyZWFraW5ndmlld3MvdmlldG5hbXMtdGVzbGEtY2hhcmdlcy1pdHNlbGYtdXAtYmlnLWZhbGwtMjAyMy0wOC0xNi_SAQA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+            "urlToImage": null,
+            "publishedAt": "2023-08-16T04:01:02Z",
+            "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Tesla cuts prices in China for some Model Y versions - TradingView",
+            "description": "Tesla cuts prices in China for some Model Y versions  TradingView",
+            "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMieWh0dHBzOi8vaW4udHJhZGluZ3ZpZXcuY29tL25ld3MvcmV1dGVycy5jb20sMjAyMzpuZXdzbWxfSzdOMzlBMDEzOjAtdGVzbGEtY3V0cy1wcmljZXMtaW4tY2hpbmEtZm9yLXNvbWUtbW9kZWwteS12ZXJzaW9ucy_SAQA?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+            "urlToImage": null,
+            "publishedAt": "2023-08-14T00:06:00Z",
+            "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Gia Mora",
+            "title": "I rented a Tesla on Turo for a road trip. I own an EV, but 3 things about the Model 3 still surprised me.",
+            "description": "An EV owner reviews the Tesla Model 3 she rented on Turo for a road trip. The Tesla Supercharger network was easy to use but one-pedal driving wasn't.",
+            "url": "https://www.businessinsider.com/tesla-road-trip-planner-model-3-turo-rental-ev-owner-2023-8",
+            "urlToImage": "https://i.insider.com/64dcea2c4ef9f30019f81bd8?width=1200&format=jpeg",
+            "publishedAt": "2023-08-17T09:26:00Z",
+            "content": "Gia Mora charges her rented Tesla Model 3 at a Supercharger station in a Santa Barbara, California, parking structure.Amy Senger\r\n<ul>\n<li>Gia Mora, an electric-vehicle enthusiast, went on a 1,000-mi… [+7936 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Nora Naughton",
+            "title": "Cybertruck fans are nitpicking Elon Musk's final design as Tesla gets ready to deliver the long-awaited truck",
+            "description": "Tesla fans have strong opinions about the Cybertruck's design.",
+            "url": "https://www.businessinsider.com/cybetruck-fans-are-criticizing-teslas-final-design-2023-8",
+            "urlToImage": "https://i.insider.com/64c28013048ff200190b8a52?width=1200&format=jpeg",
+            "publishedAt": "2023-08-11T18:48:57Z",
+            "content": "The Tesla Cybertruck undergoes testing in water.Tesla\r\n<ul><li>Tesla's Cybertruck is about to enter an already crowded segment.</li><li>Leaked photos have drawn some criticism from Tesla fans.</li><l… [+2913 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "nnaughton@insider.com (Nora Naughton)",
+            "title": "The EV plateau is coming. It's bad news for companies like Ford and Tesla.",
+            "description": "Rapid electric vehicle sales growth \"cannot be sustained,\" creating a headache for big EV-sellers like Ford and Tesla.",
+            "url": "https://www.businessinsider.com/ev-electric-car-sales-plateau-early-adopters-competition-2023-8",
+            "urlToImage": "https://i.insider.com/64d5104e005c4a00183d3b88?width=1200&format=jpeg",
+            "publishedAt": "2023-08-10T16:55:15Z",
+            "content": "After years of rapid growth, the electric vehicle market is heading for a plateau.\r\nFor years, plug-ins only accounted for a bit more than 1% of the market as options were limited and adoption was sl… [+2532 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Nora Naughton",
+            "title": "Cybertruck superfans waited years for the launch. Now Elon Musk has to deliver.",
+            "description": "The stakes are high for Tesla as it prepares to launch its Cybertruck.",
+            "url": "https://www.businessinsider.com/elon-musk-has-to-deliver-on-the-cybertruck-launch-2023-8",
+            "urlToImage": "https://i.insider.com/64d67b781f51cc0019680ae1?width=1200&format=jpeg",
+            "publishedAt": "2023-08-12T08:07:01Z",
+            "content": "Tesla's Cybertruck has a high bar as it enters a crowded market. Photo by Frederic J. BROWN / AFP via Getty Images\r\n<ul><li>The stakes are high for Tesla's Cybertruck launch.</li><li>The truck is \"no… [+2773 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Ryan Hogg",
+            "title": "Tesla's massive data breach in May affected more than 75,000 people, carmaker says",
+            "description": "The \"Tesla files\" contained 100 gigabytes of confidential data, including employees' names and contact information.",
+            "url": "https://www.businessinsider.com/tesla-massive-data-breach-handelsblatt-may-affected-thousands-people-2023-8",
+            "urlToImage": "https://i.insider.com/6495635065b9ce0018a486e9?width=1200&format=jpeg",
+            "publishedAt": "2023-08-20T16:56:48Z",
+            "content": "Reuters/Stephen Lam\r\n<ul><li>A data breach at Tesla led to the leak of 75,735 people's personal information.</li><li>German publication Handelsblatt reported in May that it had obtained confidential … [+1960 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Hartley Charlton",
+            "title": "Tesla App Update Adds Over 20 Apple Shortcuts Actions",
+            "description": "The Tesla app for iOS gains official support for Apple Shortcuts with its latest update, version 4.24.\n\n\n\n\n\nThe update to the Tesla app brings support for over 20 Shortcuts actions, allowing users to get quick access to many of their vehicle's functions, issu…",
+            "url": "https://www.macrumors.com/2023/08/21/tesla-app-update-adds-apple-shortcuts-actions/",
+            "urlToImage": "https://images.macrumors.com/t/eUkL1w_hj52-5TTXJEiHFQ0rEb4=/1600x/article-new/2020/12/tesla-red-orange-bg-feature.jpg",
+            "publishedAt": "2023-08-21T11:48:58Z",
+            "content": "The Tesla app for iOS gains official support for Apple Shortcuts with its latest update, version 4.24.\r\nThe update to the Tesla app brings support for over 20 Shortcuts actions, allowing users to get… [+1213 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Alexa St. John",
+            "title": "The bad news for automakers in China is only getting worse",
+            "description": "Car buying in China is slowing, impacting Tesla and legacy carmakers. The Chinese companies are now looking to dominate elsewhere.",
+            "url": "https://www.businessinsider.com/chinese-automakers-market-share-competing-tesla-global-expansion-2023-8",
+            "urlToImage": "https://i.insider.com/64dfb917bd98a60019797def?width=1200&format=jpeg",
+            "publishedAt": "2023-08-19T10:55:01Z",
+            "content": "As car buying demand in China slows, Chinese automakers like BYD are leaning into their international expansion next.BYD\r\n<ul><li>Chinese EV-makers have gained hold of China's car-buying market.</li>… [+4154 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Zahra Tayeb",
+            "title": "Apple, Microsoft, Tesla, and Meta see a combined $625 billion wipeout in market value amid August's stock slump",
+            "description": "Four Big Tech companies - Apple, Microsoft, Tesla, and Meta - have lost a combined $625 billion in market value this month.",
+            "url": "https://markets.businessinsider.com/news/stocks/apple-microsoft-tesla-meta-lose-625-billion-market-value-august-2023-8",
+            "urlToImage": "https://i.insider.com/6348425ff900fa001814c580?width=1200&format=jpeg",
+            "publishedAt": "2023-08-26T10:08:01Z",
+            "content": "(Photo by Scott Heins/Getty Images)\r\n<ul>\n<li>Four Big Tech companies - Apple, Microsoft, Tesla, and Meta - lost a combined $625 billion in market value this month. </li>\n<li>That may be largely due … [+2560 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Kali Hays",
+            "title": "Mercedes says it can beat any Tesla on range with a new car nearing production",
+            "description": "A new Mercedes sedan model gets nearly 470 miles on a single charge, much more than any Tesla.",
+            "url": "https://www.businessinsider.com/mercedes-says-new-sedan-beats-any-tesla-on-mileage-range-2023-9",
+            "urlToImage": "https://i.insider.com/64f603d8781926001910f375?width=1200&format=jpeg",
+            "publishedAt": "2023-09-04T16:45:10Z",
+            "content": "A Tesla Model 3 charges at a Supercharger.Paul Hennessy/NurPhoto via Getty Images\r\n<ul><li>Mercedes is headed for the release of a new EV that gets more mileage on a single charge than Tesla.</li><li… [+2257 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Tim Levin,Nora Naughton",
+            "title": "The Tesla Cybertruck might always look a little busted",
+            "description": "The heavy use of stainless steel on Tesla Cybertruck's exterior will make it hard to keep looking pristine, design and manufacturing experts said.",
+            "url": "https://www.businessinsider.com/the-cybertrucks-stainless-steel-will-always-be-a-little-smudgy-2023-8",
+            "urlToImage": "https://i.insider.com/64ee3b89d1f80d00192f201f?width=1200&format=jpeg",
+            "publishedAt": "2023-08-29T19:14:39Z",
+            "content": "Tesla's CybertruckFrederic J. Brown/AFP\r\n<ul><li>Stainless steel will be impossible to keep looking nice.</li><li>The Cybertruck will be a \"measure of the appeal\" of Tesla.</li><li>Elon Musk knows th… [+3886 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Nora Naughton",
+            "title": "3 signs the Tesla Cybertruck could be delayed yet again",
+            "description": "The Cybertruck is finally supposed to arrive this month — if it can avoid another delay.",
+            "url": "https://www.businessinsider.com/tesla-cybertruck-release-date-delivery-delay-signs-2023-9",
+            "urlToImage": "https://i.insider.com/64c28013048ff200190b8a52?width=1200&format=jpeg",
+            "publishedAt": "2023-09-06T11:15:01Z",
+            "content": "Lots of questions remain about Elon Musk's polarizing Cybertruck. Photo by Frederic J. BROWN / AFP via Getty Images\r\n<ul><li>Elon Musk is still making complex demands about the appearance of the Cybe… [+3402 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Tim Levin",
+            "title": "'It's a dealbreaker:' Some Tesla fans are complaining about the new Model 3's 'terrible' turn-signal buttons",
+            "description": "Elon Musk has revolutionized cars. But some Tesla fans say he's going too far by changing the turn signals in the new Model 3.",
+            "url": "https://www.businessinsider.com/tesla-fans-complain-new-model-3-highland-turn-signal-stalks-2023-9",
+            "urlToImage": "https://i.insider.com/64f77b8c7819260019119931?width=1200&format=jpeg",
+            "publishedAt": "2023-09-05T19:45:27Z",
+            "content": "Tesla fans have applauded the new Model 3's modern styling and more premium interior, but they don't like the lack of stalks. Tesla\r\n<ul><li>Tesla recently unveiled a revamped version of its popular … [+3487 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Pete Syme",
+            "title": "Elon Musk reportedly complained about the Cybertruck's design and wants it to be as precise as a Lego brick",
+            "description": "Elon Musk reportedly told Tesla staff of the Cybertruck that \"any dimensional variation shows up like a sore thumb,\" according to an email seen by CNBC.",
+            "url": "https://www.businessinsider.com/elon-musk-emails-all-tesla-staff-to-complain-about-cybertruck-2023-8",
+            "urlToImage": "https://i.insider.com/64e8795f52bc2d001991e7db?width=1200&format=jpeg",
+            "publishedAt": "2023-08-25T13:53:18Z",
+            "content": "Tesla Cybertruck.Tesla\r\n<ul><li>Elon Musk emailed Tesla staff this week to complain about the Cybertruck design, per CNBC.</li><li>Musk reportedly said: \"Any dimensional variation shows up like a sor… [+1801 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hackaday"
+            },
+            "author": "Dan Maloney",
+            "title": "Teaching a Mini-Tesla to Steer Itself",
+            "description": "At the risk of stating the obvious, even when you’ve got unlimited resources and access to the best engineering minds, self-driving cars are hard. Building a multi-ton guided missile that …read more",
+            "url": "https://hackaday.com/2023/09/02/teaching-a-mini-tesla-to-steer-itself/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2023/08/teskart.png",
+            "publishedAt": "2023-09-02T11:00:51Z",
+            "content": "At the risk of stating the obvious, even when you’ve got unlimited resources and access to the best engineering minds, self-driving cars are hard. Building a multi-ton guided missile that can handle … [+1746 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Dan Avery",
+            "title": "Tesla Unveils Cheaper Model X and Model S Vehicles With Shorter Range - CNET",
+            "description": "The top EV carmaker has slashed about $10,000 off its most expensive models.",
+            "url": "https://www.cnet.com/roadshow/news/tesla-unveils-cheaper-model-x-and-model-s-vehicles-with-shorter-range/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/5a11843d6c3ebad0f19e461acd8f785b7ddd5d42/hub/2023/08/16/bff509ce-5f71-4ce3-a551-228f0f785869/models-72.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2023-08-16T19:12:00Z",
+            "content": "Tesla has trimmed the prices of its two most expensive electric vehicles -- but the savings come with a hitch: On Monday, the automaker began offering a \"standard-range\" Model S with a sticker price … [+1206 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Pete Syme",
+            "title": "A hidden Tesla feature nicknamed 'Elon mode' is under scrutiny from regulators after a hacker discovered a way to get rid of a prompt to drivers to keep their hands on the wheel",
+            "description": "Tesla has been ordered by regulators to hand over data about an Autopilot mode that reportedly removes a prompt telling drivers to put their hands on the wheel.",
+            "url": "https://www.businessinsider.com/tesla-regulators-investigate-autopilot-setting-removes-hands-on-wheel-prompt-2023-8",
+            "urlToImage": "https://i.insider.com/64ef0e5526dda200194d96fc?width=1200&format=jpeg",
+            "publishedAt": "2023-08-30T11:36:01Z",
+            "content": "Elon Musk in a Tesla.Odd ANDERSEN/AFP/Getty Images\r\n<ul><li>Auto regulators ordered Tesla to hand over data about a hidden Autopilot mode that lets drivers stay hands-free.</li><li>It reportedly remo… [+2539 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Nikki Main",
+            "title": "NYU Professor Locked Out of Twitter After Reportedly Declining to Meet With Elon Musk",
+            "description": "New York University professor and podcaster Scott Galloway voiced his outrage at being banned from posting on Twitter in a Threads post on Tuesday. Galloway claims he’s been locked out of Twitter (aka X) two days after allegedly declining an invitation to mee…",
+            "url": "https://gizmodo.com/scott-galloway-locked-out-twitter-musk-1850743635",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/bb96d9f37ba2648b95624373d9c56533.jpg",
+            "publishedAt": "2023-08-16T17:55:00Z",
+            "content": "New York University professor and podcaster Scott Galloway voiced his outrage at being banned from posting on Twitter in a Threads post on Tuesday. Galloway claims hes been locked out of Twitter (aka… [+2484 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Nicolás Rivera",
+            "title": "Tesla presenta oficialmente el Model 3 Highland: un salto notable en autonomía, un interior renovado y más",
+            "description": "El nuevo Tesla Model 3 Highland es oficial. La marca estadounidense lo ha desvelado de manera silenciosa, simplemente actualizando la web oficial de la compañía en Europa. No obstante, se espera que los comunicados oficiales sean emitidos a lo largo del día. …",
+            "url": "http://hipertextual.com/2023/09/tesla-model-3-highland-caracteristicas-novedades-autonomia",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/09/Tesla-Model-3-Highland-scaled.jpg",
+            "publishedAt": "2023-09-01T05:31:22Z",
+            "content": "El nuevo Tesla Model 3 Highland es oficial. La marca estadounidense lo ha desvelado de manera silenciosa, simplemente actualizando la web oficial de la compañía en Europa. No obstante, se espera que … [+4081 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Zahra Tayeb",
+            "title": "Short sellers have lost more than $175 billion betting against US stocks as Nvidia, Tesla, and Meta defy doomsayers",
+            "description": "Betting against stocks including Nvidia, Meta, and Tesla has been the least profitable trade for investors this year thanks to an AI boom.",
+            "url": "https://markets.businessinsider.com/news/stocks/short-sellers-lose-175-billion-us-stocks-nvidia-meta-rally-2023-8",
+            "urlToImage": "https://i.insider.com/6348425ff900fa001814c580?width=1200&format=jpeg",
+            "publishedAt": "2023-08-09T09:55:05Z",
+            "content": "(Photo by Scott Heins/Getty Images)\r\n<ul>\n<li>Short sellers suffered losses of more than $170 billion betting against US stocks this year. </li>\n<li>US equities surged throughout 2023 as investor fre… [+1705 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Grace Kay",
+            "title": "Tesla owners share their best tips for taking an EV on a road trip",
+            "description": "Eight Tesla veterans shared some tips on how to execute a successful EV road trip — from avoiding certain routes to getting creative on the road.",
+            "url": "https://www.businessinsider.com/tesla-owners-share-tips-for-taking-ev-on-road-trip-2023-8",
+            "urlToImage": "https://i.insider.com/64de47d24ef9f30019f9254d?width=1200&format=jpeg",
+            "publishedAt": "2023-08-19T09:30:06Z",
+            "content": "Tesla owners told Insider some of the best practices for taking the EV on a road trip.Getty Images\r\n<ul>\n<li>Tesla owners and a renter described their experience taking the EV on cross-country road t… [+14996 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Grace Kay",
+            "title": "A Tesla owner took his Model S camping on a 19-day road trip and slept in it nearly every night",
+            "description": "Taking an EV on a cross-country journey? What about range anxiety? Some Tesla owners say it's not an issue, and the EV's \"Camp Mode\" makes it ideal.",
+            "url": "https://www.businessinsider.com/tesla-model-s-camping-for-ev-road-trip-2023-8",
+            "urlToImage": "https://i.insider.com/64d639737e9149001aa4ba06?width=1200&format=jpeg",
+            "publishedAt": "2023-08-14T09:06:01Z",
+            "content": "A Tesla owner said he camps in his Model S on long road trips.Courtesy of David Craig\r\n<ul>\n<li>David Craig said he took his Tesla Model S on a 19-day road trip and slept in it almost every night.</l… [+4591 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Theron Mohamed",
+            "title": "A secretive asset manager had $36 billion riding on just 5 tech stocks including Tesla and Nvidia at the end of June",
+            "description": "Tesla, Nvidia, Microsoft, Apple, and Amazon made up almost 30% of Jennison Associates' stock portfolio at the end of June, up from 21% in December.",
+            "url": "https://markets.businessinsider.com/news/stocks/jennison-associates-stock-portfolio-q2-tesla-nvidia-microsoft-ai-tech-2023-8",
+            "urlToImage": "https://i.insider.com/5f5ebad97ed0ee001e25f066?width=1200&format=jpeg",
+            "publishedAt": "2023-08-15T09:06:07Z",
+            "content": "Nvidia CEO Jensen Huang.Rick Wilking/Reuters\r\n<ul>\n<li>A low-profile asset manager has been a major winner from the Big Tech stock rally this year.</li>\n<li>Jennison Associates' stakes in Tesla, Nvid… [+3271 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Chris Kaye",
+            "title": "A young Elon Musk once sweet-talked a random mall salesman into giving him a Dungeons & Dragons module for free and we think we know which one it is",
+            "description": "Elon Musk once talked his way into a free Dungeons & Dragons module as a teen. The Tesla CEO has been known to favor the human paladin character.",
+            "url": "https://www.businessinsider.com/elon-musk-dungeons-and-dragons-dnd-module-free-2023-8",
+            "urlToImage": "https://i.insider.com/64e4f2d0b698ac0019df5f16?width=1200&format=jpeg",
+            "publishedAt": "2023-08-23T02:18:10Z",
+            "content": "Left: Dungeons & Dragons is on display after being inducted Thursday, Nov. 10, 2016, into the National Toy Hall of Fame at The Strong museum in Rochester, NY. Right: Not Teenage Elon Musk. R: AP Phot… [+5030 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "George Glover",
+            "title": "From Elon Musk to Chinese tech titans, everyone wants Nvidia's GPU chips. There might not be enough to go around.",
+            "description": "Musk has bought thousands of Nvidia's semiconductor chips for X.com, xAI, and Tesla, but there are signs demand is outpacing supply.",
+            "url": "https://www.businessinsider.com/elon-musk-tesla-twitter-china-tech-giants-nvidia-gpu-chips-2023-8",
+            "urlToImage": "https://i.insider.com/64d4e13b48a88f001968b065?width=1200&format=jpeg",
+            "publishedAt": "2023-08-12T10:30:01Z",
+            "content": "Demand for Nvidia's semiconductor chips has soared in 2023.Justin Sullivan/Getty Images\r\n<ul>\n<li>Elon Musk has loaded up on Nvidia GPUs for X, xAI, and Tesla.</li>\n<li>Meanwhile, Chinese tech titans… [+2866 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Grace Kay",
+            "title": "Elon Musk studied Napoleon — and likened himself to a 'battlefield' general at Tesla and SpaceX, his biographer says",
+            "description": "\"If they see their general on the battlefield, they will be more motivated,\" Elon Musk said of Tesla and SpaceX workers, his biographer shared.",
+            "url": "https://www.businessinsider.com/elon-musk-studied-napoleon-tesla-spacex-factory-battlefield-biographer-2023-8",
+            "urlToImage": "https://i.insider.com/64da3b021f51cc001968dd3d?width=1200&format=jpeg",
+            "publishedAt": "2023-08-14T17:51:44Z",
+            "content": "Elon Musk studied Napoleon Bonaparte for advice on leadership, his biographer Walter Isaacson said.Chesnot/Getty Images and Getty Images\r\n<ul>\n<li>Elon Musk has taken leadership notes from Napoleon B… [+2641 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Grace Kay",
+            "title": "A Tesla bumper sticker that says 'I bought this before we knew Elon was crazy' keeps popping up on social media. It's prompting a debate about whether you can separate a product from its CEO.",
+            "description": "Several Redditors mocked the idea of avoiding Tesla because of Elon Musk's controversial reputation. Others said they wouldn't buy one of his EVs.",
+            "url": "https://www.businessinsider.com/tesla-sticker-bought-before-elon-was-crazy-debate-reddit-2023-9",
+            "urlToImage": "https://i.insider.com/64f757be7819260019117619?width=1200&format=jpeg",
+            "publishedAt": "2023-09-06T09:09:01Z",
+            "content": "A picture of a Tesla bumper sticker that poked fun at Elon Musk has been making the rounds on social media.Getty Images\r\n<ul>\n<li>A picture of a bumper sticker that mocks Elon Musk is again making th… [+3967 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Rubén Chicharro",
+            "title": "El Tesla Model 3 Highland se deja ver en las carreteras de China revelando nuevos detalles",
+            "description": "El Tesla Model 3 Highland, que podría presentarse en las próximas semanas, sigue dejándose ver en Shanghái, donde Tesla ya habría comenzado su producción. Ahora, y tan solo unos días después de que se captaran decenas de modelos aparcados en la Gigafactoría d…",
+            "url": "http://hipertextual.com/2023/08/el-tesla-model-3-highland-se-deja-ver-en-las-carreteras-de-china-revelando-nuevos-detalles",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/08/tesla-model-3-highland-003.jpg",
+            "publishedAt": "2023-08-23T07:02:39Z",
+            "content": "El Tesla Model 3 Highland, que podría presentarse en las próximas semanas, sigue dejándose ver en Shanghái, donde Tesla ya habría comenzado su producción. Ahora, y tan solo unos días después de que s… [+2435 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Andrew J. Hawkins",
+            "title": "GM says all of its EVs will be able to power your home by 2026",
+            "description": "GM says all of its electric vehicles will have bidirectional vehicle-to-home charging capabilities by 2026. The first EV will be the electric Chevy Silverado, due out later this year.",
+            "url": "https://www.theverge.com/2023/8/8/23823166/gm-ev-bidirectional-charging-vehicle-to-home",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/_yGSC92PmZR3V0-vY_VN032pGbw=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24015542/226268_CHEVY_EV_LINEUP_PHO_ahawkins_0006.jpg",
+            "publishedAt": "2023-08-08T13:00:00Z",
+            "content": "GM says all of its EVs will be able to power your home by 2026\r\nGM says all of its EVs will be able to power your home by 2026\r\n / The Chevy Silverado EV will be the first model to get vehicle-to-hom… [+4259 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Ryan Hogg",
+            "title": "Tesla gave the Model 3 a makeover and cut the price of Full Self-Driving by $3,000",
+            "description": "The revamp brings slimmer headlights, a new display for rear passengers, and longer range, but will cost more in China where it goes on sale before the US.",
+            "url": "https://www.businessinsider.com/tesla-gives-model-3-makeover-cuts-full-self-driving-price-2023-9",
+            "urlToImage": "https://i.insider.com/64f1d9b85114270019af099a?width=1200&format=jpeg",
+            "publishedAt": "2023-09-01T12:43:46Z",
+            "content": "Tesla's revamped Model 3 has slimmer headlights.Tesla\r\n<ul><li>Tesla gave its Model 3 a major makeover – the first in six years.</li><li>The new version, with sleeker headlights and a new rear displa… [+2159 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Zahra Tayeb",
+            "title": "Tesla's 'Master of Coin' bids the EV-maker farewell after racking up a $590 million fortune",
+            "description": "Tesla's chief financial officer Zachary Kirkhorn largely pooled his wealth from shares and stock options in the EV-maker, a recent proxy filing shows.",
+            "url": "https://markets.businessinsider.com/news/stocks/tesla-cfo-zachary-kirkhorn-leaves-590-million-fortune-2023-8",
+            "urlToImage": "https://i.insider.com/64d0f43c20f1cf0019cbe1a2?width=1200&format=jpeg",
+            "publishedAt": "2023-08-09T11:17:26Z",
+            "content": "Tesla's CFO is leaving.YouTube\r\n<ul>\n<li>A Tesla exec's departure will see him leave with a $590 million fortune, according to Bloomberg. </li>\n<li>Zachary Kirkhorn, worked at Tesla for 13 years, inc… [+1840 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Steven Symes",
+            "title": "Arkansas Police Take Down Tesla Hard",
+            "description": "And here it is, the future of police chases! Two Tesla drivers decided to race each other on a highway in West Memphis, drawing the attention of local law...",
+            "url": "https://autos.yahoo.com/arkansas-police-down-tesla-hard-174803056.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/B61gCq2prADKjb.3WqFbmw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/the_auto_wire_articles_747/dfe461705f03a60ca4893b2b8d294370",
+            "publishedAt": "2023-08-27T16:30:00Z",
+            "content": "Two Tesla drivers decided to race each other on a highway in West Memphis, drawing the attention of local law enforcement. Arkansas State Police were called for help and Trooper James Collins jumped … [+3026 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Ryan Hogg",
+            "title": "Yes, cold weather affects EV batteries. Here's why they drain faster.",
+            "description": "Cold weather affects EV batteries' life and charging. Heating the car's cabin is the main issue, and batteries work slower in cool temperatures.",
+            "url": "https://www.businessinsider.com/why-ev-batteries-drain-faster-dont-last-long-cold-weather-2023-8",
+            "urlToImage": "https://i.insider.com/64cb74ef95fe1f0019df9107?width=1200&format=jpeg",
+            "publishedAt": "2023-08-12T17:37:31Z",
+            "content": "Tesla electric cars charge at a Supercharger.George Rose/Getty Images\r\n<ul><li>Tesla has been accused of overstating its EVs' ranges, particularly in cold weather.</li><li>EV car batteries drain much… [+3611 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Hipertextual (Redacción)",
+            "title": "Zach Kirkhorn, uno de los posibles sucesores de Elon Musk, deja Tesla tras 13 años como CFO",
+            "description": "Zach Kirkhorn, quien fue director financiero de Tesla desde marzo de 2019, y trabajó durante 13 años en la compañía, ha renunciado a su puesto de forma sorpresiva. La noticia se ha conocido por medio de una comunicación regulatoria. Por su larga trayectoria e…",
+            "url": "http://hipertextual.com/2023/08/zach-kirkhorn-deja-tesla-tras-13-anos-cfo",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/08/1x-1.jpg",
+            "publishedAt": "2023-08-08T16:37:50Z",
+            "content": "Zach Kirkhorn, quien fue director financiero de Tesla desde marzo de 2019, y trabajó durante 13 años en la compañía, ha renunciado a su puesto de forma sorpresiva. La noticia se ha conocido por medio… [+2420 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Alexa St. John",
+            "title": "If automakers like Ford and GM want to catch Tesla, they'll have to offer fewer options on your new car",
+            "description": "Ford could reduce options by 90% in a bid to be more competitive, while GM might slash choices by 50%. It's a strategy that's working well for Tesla and Chinese companies.",
+            "url": "https://www.businessinsider.com/automakers-ford-gm-should-copy-tesla-chinese-companies-fewer-options-2023-8",
+            "urlToImage": "https://i.insider.com/60f1beec71757b0018c6a10c?width=1200&format=jpeg",
+            "publishedAt": "2023-08-16T17:29:18Z",
+            "content": "Car buyers are used to having choices. As more automakers copy Tesla and the budding Chinese manufacturers, that's shifting.John Gress/Corbis/Getty Images\r\n<ul><li>American and German car buyers have… [+4559 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Kris Holt",
+            "title": "Acura's ZDX EV has an estimated 325 miles of range and starts at around $60,000",
+            "description": "Honda\r\n is looking to make waves in the electric vehicle market. The first model in the automaker's major 2024 push into the space is the Acura ZDX. It expects to obtain an EPA range rating of 325 miles on a single charge for the base A-Spec single-motor conf…",
+            "url": "https://www.engadget.com/acuras-zdx-ev-has-an-estimated-325-miles-of-range-and-starts-at-around-60000-160023372.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/N5ELBmNPPZaC.MrYarB8Kw--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-08/2d3ab840-3d13-11ee-bcef-dab10f0e1c37.cf.jpg",
+            "publishedAt": "2023-08-17T16:00:23Z",
+            "content": "Honda\r\n is looking to make waves in the electric vehicle market. The first model in the automaker's major 2024 push into the space is the Acura ZDX. It expects to obtain an EPA range rating of 325 mi… [+2335 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Mat Smith",
+            "title": "The Morning After: The PlayStation Portal is a PS5 game-streaming handheld.",
+            "description": "Several months back, Sony teased a dedicated remote-play device for the PlayStation 5. Now it’s got a name and a price. The PlayStation Portal will cost $200 when it lands later this year,.Aesthetics-wise, it looks like a tablet wedged between two halves of a…",
+            "url": "https://www.engadget.com/the-morning-after-the-playstation-portal-is-a-ps5-game-streaming-handheld-111544269.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/y_q0l4EN91vsH37BrR6JGw--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-08/6e814a70-41bf-11ee-bffa-e2042fa87ca7.cf.jpg",
+            "publishedAt": "2023-08-24T11:15:44Z",
+            "content": "Several months back, Sony teased a dedicated remote-play device for the PlayStation 5. Now its got a name and a price. The PlayStation Portal will cost $200 when it lands later this year,.\r\nAesthetic… [+3178 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Ebenizer Pinedo",
+            "title": "Tesla Cybertruck: Elon Musk muestra la posible versión de producción",
+            "description": "Si no surge otro imprevisto en su camino, la Tesla Cybertruck iniciará a fabricarse este mismo año, si bien la producción en masa se hará esperar hasta el siguiente. Debido a la cercanía de tan importante suceso, Elon Musk aprovechó su cuenta de Twitter (X) p…",
+            "url": "http://hipertextual.com/2023/08/tesla-cybertruck-version-de-produccion",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/08/tesla-cybertruck.jpg",
+            "publishedAt": "2023-08-23T23:36:56Z",
+            "content": "Si no surge otro imprevisto en su camino, la Tesla Cybertruck iniciará a fabricarse este mismo año, si bien la producción en masa se hará esperar hasta el siguiente. Debido a la cercanía de tan impor… [+3959 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Grace Kay",
+            "title": "Tesla is reportedly under investigation by the DOJ and SEC over it's mysterious 'Project 42'",
+            "description": "The project was internally believed to involve building a glass house for Elon Musk, the Journal previously reported.",
+            "url": "https://www.businessinsider.com/tesla-doj-sec-investigation-project-42-glass-house-elon-musk-2023-8",
+            "urlToImage": "https://i.insider.com/64ef9e090ce10a00183bedea?width=1200&format=jpeg",
+            "publishedAt": "2023-08-30T20:36:41Z",
+            "content": "Elon Musk's secretive initiative dubbed \"Project 42\" could spell trouble for the CEO.Getty Images\r\n<ul>\n<li>Tesla is facing a federal probe over its mysterious \"Project 42,\" The Wall Street Journal r… [+2546 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Alexa St. John",
+            "title": "Auto execs still don't think the Tesla sales model will catch on",
+            "description": "One-third of car industry leaders don't think Tesla's direct-to-consumer model will hit mainstream auto retail. But changes are in store, experts say.",
+            "url": "https://www.businessinsider.com/tesla-electric-vehicle-sales-model-automakers-say-wont-catch-on-2023-8",
+            "urlToImage": "https://i.insider.com/6481dfd69ea86100194960ac?width=1200&format=jpeg",
+            "publishedAt": "2023-08-09T17:55:23Z",
+            "content": "Some car companies have hinted at experimenting with a direct-to-consumer model and cutting dealers, but many execs have said they're not actually convinced it'll happen.AP Photo/David Zalubowski\r\n<u… [+4830 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Alexa St. John",
+            "title": "Tesla won't kill car dealerships, but it will force them to change",
+            "description": "The EV shift is driving a wedge between dealers and their automakers.",
+            "url": "https://www.businessinsider.com/how-automakers-dealerships-have-to-change-to-compete-with-tesla-2023-8",
+            "urlToImage": "https://i.insider.com/64e7ae0e52bc2d001991981c?width=1200&format=jpeg",
+            "publishedAt": "2023-08-25T09:01:01Z",
+            "content": "Some automakers are hinting they want to cut dealers out of the sales process, but that's not so easy. There may be a happy medium.Peter Dench/Getty Images\r\n<ul><li>Tesla's success selling cars direc… [+4687 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Jeremiah Budin",
+            "title": "Tesla lands in hot water after new report alleges the company told a huge, long-term lie about its vehicles",
+            "description": "According to the report, Tesla also created an entire secret “Diversion Team” to thwart customers who complained about the issue.",
+            "url": "https://news.yahoo.com/tesla-lands-hot-water-report-100000724.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ECPzsSBsn4nN9gqV273DQw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03MjE-/https://media.zenfs.com/en/the_cool_down_737/f3e1d79a849a70178ba37bf0b4c8f247",
+            "publishedAt": "2023-08-18T10:00:00Z",
+            "content": "Tesla has been accused of several unethical business practices over the years. The latest, according to a new, extensively reported piece from Reuters, is that the electric vehicle company misled con… [+2557 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Rubén Chicharro",
+            "title": "Captan decenas de Tesla Model 3 Highland aparcados en la Gigafactoría de Shangái y emergen más datos sobre sus baterías",
+            "description": "El lanzamiento del Tesla Model 3 Highland parece ser inminente, y prueba de ello es el inusual movimiento en la Gigafactory que la compañía tiene ubicada en Shanghái. Tal y como recoge el portal Teslarati, en las instalaciones se ha visto incrementar consider…",
+            "url": "http://hipertextual.com/2023/08/captan-decenas-de-tesla-model-3-highland-aparcados-en-la-gigafactoria-de-shangai-y-emergen-mas-datos-sobre-sus-baterias",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2021/10/tesla-model-3.jpg",
+            "publishedAt": "2023-08-21T09:34:01Z",
+            "content": "El lanzamiento del Tesla Model 3 Highland parece ser inminente, y prueba de ello es el inusual movimiento en la Gigafactory que la compañía tiene ubicada en Shanghái. Tal y como recoge el portal Tesl… [+2643 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Pete Syme",
+            "title": "An NYU professor with 560,000 followers says he's been locked out of his X account for over 2 weeks after declining to meet with Elon Musk",
+            "description": "The NYU professor and public speaker said a mutual friend told him Elon felt \"unfairly attacked\" by him, but Scott Galloway declined a meeting.",
+            "url": "https://www.businessinsider.com/scott-galloway-says-hes-locked-out-x-after-upsetting-musk-2023-8",
+            "urlToImage": "https://i.insider.com/64dcba034ef9f30019f7edfc?width=1200&format=jpeg",
+            "publishedAt": "2023-08-16T13:34:46Z",
+            "content": "Elon Musk and Scott Galloway.JOEL SAGET/AFP via Getty Images; Tobias Hase/picture alliance via Getty Images\r\n<ul><li>NYU professor Scott Galloway said he's been locked out of his 564,000 follower X a… [+2165 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Nicolás Rivera",
+            "title": "Tesla comienza a aceptar reservas del Model 3 Highland y emergen más detalles sobre su presentación",
+            "description": "El lanzamiento del esperado Tesla Model 3 Highland está tan cerca que incluso algunas tiendas situadas en China han comenzado a admitir reservas del nuevo modelo. Eso, al menos, es lo que asegura este miércoles el periódico local China Securities Journal. Est…",
+            "url": "http://hipertextual.com/2023/08/tesla-reservas-model-3-highland-china",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/04/Tesla-Model-3-Rojo.jpeg",
+            "publishedAt": "2023-08-16T09:53:32Z",
+            "content": "El lanzamiento del esperado Tesla Model 3 Highland está tan cerca que incluso algunas tiendas situadas en China han comenzado a admitir reservas del nuevo modelo. Eso, al menos, es lo que asegura est… [+4527 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Nicolás Rivera",
+            "title": "Hoy podrás cargar tu coche eléctrico gratis en cualquier Supercargador Tesla de Europa",
+            "description": "Tesla ha anunciado este martes 29 de agosto que, entre las 9 de la mañana y las 23:59 del citado día, todos los vehículos eléctricos podrán cargar de manera gratuita en cualquiera de los Supercargadores que la compañía tiene distribuidos por Europa. La razón …",
+            "url": "http://hipertextual.com/2023/08/hoy-puedes-cargar-tu-coche-electrico-gratis-en-los-supercargadores-de-tesla",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/08/Tesla-Electric-Summer-scaled.jpg",
+            "publishedAt": "2023-08-29T09:22:43Z",
+            "content": "Tesla ha anunciado este martes 29 de agosto que, entre las 9 de la mañana y las 23:59 del citado día, todos los vehículos eléctricos podrán cargar de manera gratuita en cualquiera de los Supercargado… [+2280 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Pete Syme",
+            "title": "Elon Musk borrowed $1 billion from SpaceX around the same time he bought Twitter, report says",
+            "description": "Elon Musk took out a loan worth more than one-fifth of SpaceX's cash and securities on hand, backed by his stock in the company, the WSJ reported.",
+            "url": "https://www.businessinsider.com/elon-musk-borrowed-1-billion-from-spacex-around-twitter-purchase-2023-9",
+            "urlToImage": "https://i.insider.com/64f84a2fa35dd100195edeb1?width=1200&format=jpeg",
+            "publishedAt": "2023-09-06T10:15:26Z",
+            "content": "Elon Musk.Alain Jocard/AFP via Getty Images\r\n<ul><li>Elon Musk took out a $1 billion loan from SpaceX the same month he bought Twitter, per the WSJ.</li><li>His Twitter acquisition was also funded by… [+1896 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Nicolás Rivera",
+            "title": "Tesla presenta el nuevo Model 3 Highland: un salto importante en autonomía, un interior renovado y más",
+            "description": "El nuevo Tesla Model 3 Highland es oficial. La marca estadounidense lo ha desvelado de manera silenciosa, simplemente actualizando la web oficial de la compañía en Europa. No obstante, se espera que los comunicados oficiales sean emitidos a lo largo del día. …",
+            "url": "http://hipertextual.com/2023/09/tesla-model-3-highland-caracteristicas-novedades-autonomia-precio",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/09/Tesla-Model-3-Highland-scaled.jpg",
+            "publishedAt": "2023-09-01T05:31:22Z",
+            "content": "El nuevo Tesla Model 3 Highland es oficial. Tras semanas repletas de filtraciones, rumores y especulaciones, la marca estadounidense lo ha desvelado de manera silenciosa, sin un evento de por medio. … [+4590 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Theron Mohamed",
+            "title": "A pretzel-shop worker committed a $1 million fraud to buy Tesla, GameStop, and Nvidia shares - and ended up making $7,000 for his broker, SEC says",
+            "description": "The fast-food worker fraudulently obtained $200,000 of advance credit, and plowed it into several trendy stocks including Apple and AMC, the SEC said.",
+            "url": "https://markets.businessinsider.com/news/stocks/tesla-nvidia-gamestop-amc-meme-stocks-sec-fraud-retail-trader-2023-8",
+            "urlToImage": "https://i.insider.com/626161f0db73840018a55fe7?width=1200&format=jpeg",
+            "publishedAt": "2023-08-29T12:16:47Z",
+            "content": "Tesla CEO Elon Musk.HANNIBAL HANSCHKE /Getty Images\r\n<ul>\n<li>A fast-food worker obtained $200,000 of advance credit by making bogus deposits, the SEC says.</li>\n<li>The Auntie Anne's employee piled … [+3344 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Reuters",
+            "title": "Tesla launches new Model 3 in China, Europe with longer driving range",
+            "description": "SHANGHAI (Reuters) -Tesla on Friday unveiled a restyled Model 3 with a longer driving range in China and other markets including Europe, the Middle East...",
+            "url": "https://ca.finance.yahoo.com/news/tesla-launches-model-3-china-012537310.html",
+            "urlToImage": "https://media.zenfs.com/en/reuters.com/6421b0f4917e9e41b667f1f5926fc05b",
+            "publishedAt": "2023-09-01T01:25:37Z",
+            "content": "SHANGHAI (Reuters) -Tesla on Friday unveiled a restyled Model 3 with a longer driving range in China and other markets including Europe, the Middle East, Australia and Japan, putting pressure on riva… [+2430 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Laurelle Stelle",
+            "title": "This EV battery can travel over 750 miles on a single charge: ‘Fundamentally reinvent the battery’",
+            "description": "The battery was able to power a Tesla Model S for an incredible 752 miles across Michigan on a single charge.",
+            "url": "https://news.yahoo.com/ev-battery-travel-over-750-094500201.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/kwX2nQdCOWW2LnC4_OiLEQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/the_cool_down_737/f352d9dbad7ced78c4a78e0d4f24c1b2",
+            "publishedAt": "2023-08-10T11:30:00Z",
+            "content": "The Gemini battery from manufacturer Our Next Energy (ONE) promises to give electric vehicles a greater range than ever before.\r\nIn a December 2021 road test, ONEs first Gemini prototype was able to … [+1968 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Eduardo Arcos",
+            "title": "Se filtran nuevas imágenes del Tesla Model 3 «Project Highland» rediseñado",
+            "description": "Se han filtrado nuevas imágenes del rediseño del Tesla Model 3, también conocido como Project Highland. Tras meses de rumores, avivamientos del coche con el frontal y la parte trasera oculta, parece que su lanzamiento es inminente. Una fuente anónima envió la…",
+            "url": "http://hipertextual.com/2023/09/filtran-nuevas-imagenes-tesla-model-3-project-highland",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/08/71520501082__70999154-9A3C-4BB1-B851-90192D62A36E-scaled.jpeg",
+            "publishedAt": "2023-08-31T22:08:58Z",
+            "content": "Se han filtrado nuevas imágenes del rediseño del Tesla Model 3, también conocido como Project Highland. Tras meses de rumores, avivamientos del coche con el frontal y la parte trasera oculta, parece … [+1981 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Jeannine Mancini",
+            "title": "Elon Musk's 77-Year-Old Dad Says He's Asked To Donate His Sperm: 'Why Go To Elon When They Can Go To The Actual Person Who Created Elon?'",
+            "description": "Tesla Inc. CEO Elon Musk's father recently said he was approached by an undisclosed South American company with an unusual proposition. The company expressed...",
+            "url": "https://finance.yahoo.com/news/elon-musks-77-old-dad-170015107.html",
+            "urlToImage": "https://media.zenfs.com/en/Benzinga/08aefc52efddb3328a4f025bb0ad30ca",
+            "publishedAt": "2023-08-29T17:00:15Z",
+            "content": "Tesla Inc. CEO Elon Musk's father recently said he was approached by an undisclosed South American company with an unusual proposition. The company expressed interest in him donating sperm to facilit… [+2407 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Xataka.com"
+            },
+            "author": "Ricardo Aguilar",
+            "title": "\"Oye Siri, carga mi Tesla\". La app de Tesla se actualiza a lo grande integrando Atajos de Apple",
+            "description": "La aplicación de Tesla para iOS y los Atajos del sistema operativo de Apple por fin se entienden a la perfección de forma nativa. Con la versión 4.24.0, publicada en la tienda de aplicaciones de Apple el pasado día 18, el listado de cambios deja claro el foco…",
+            "url": "https://www.xataka.com/movilidad/oye-siri-carga-mi-tesla-app-tesla-se-actualiza-a-grande-integrando-atajos-apple",
+            "urlToImage": "https://i.blogs.es/075e75/1366_2000-2-/840_560.jpeg",
+            "publishedAt": "2023-08-21T07:00:02Z",
+            "content": "La aplicación de Tesla para iOS y los Atajos del sistema operativo de Apple por fin se entienden a la perfección de forma nativa. Con la versión 4.24.0, publicada en la tienda de aplicaciones de Appl… [+1596 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Nora Naughton,Alexa St. John",
+            "title": "EVs are the only cars you can get a deal on right now",
+            "description": "It's hard to find a deal on a car right now, unless you're shopping for an electric vehicle.",
+            "url": "https://www.businessinsider.com/electric-vehicle-discounts-price-cuts-affordable-tesla-competitor-2023-8",
+            "urlToImage": "https://i.insider.com/64e8ee54bc26b40019901f2c?width=1200&format=jpeg",
+            "publishedAt": "2023-08-27T11:45:01Z",
+            "content": "Tesla vehicles plugged in and charging at a Supercharger rapid battery charging station.Smith Collection/Gado/Getty Images\r\n<ul><li>If you're looking for a discount on a car, you might want to consid… [+4537 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Theron Mohamed",
+            "title": "Elon Musk jabs at Lucid after its CEO raked in $379 million of total compensation last year",
+            "description": "Elon Musk rang the alarm on companies that don't tie pay to performance, even though he and Lucid's CEO both hit market-cap targets in recent years.",
+            "url": "https://markets.businessinsider.com/news/stocks/elon-musk-lucid-motors-rawlinson-ceo-executive-pay-compensation-ev-2023-9",
+            "urlToImage": "https://i.insider.com/5d950340e28ccd10cd6f6f31?width=1200&format=jpeg",
+            "publishedAt": "2023-09-05T11:24:53Z",
+            "content": "Elon Musk.REUTERS/Mike Blake\r\n<ul>\n<li>Elon Musk took aim at Lucid Motors over its executive compensation in a X post on Monday.</li>\n<li>The Tesla CEO trumpeted performance-based pay after Lucid's C… [+2332 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Joseph Wilkins",
+            "title": "The world's 6 richest people are closing in on a $1 trillion combined net worth after the stunning rally in stocks this year",
+            "description": "Elon Musk, Jeff Bezos, Bill Gates, Warren Buffett, and two other centibillionaires are worth nearly $1 trillion between them.",
+            "url": "https://markets.businessinsider.com/news/stocks/musk-bezos-buffett-gates-rich-list-trillion-combined-net-worth-2023-8",
+            "urlToImage": "https://i.insider.com/64d0d1ba20f1cf0019cbd0c0?width=1200&format=jpeg",
+            "publishedAt": "2023-08-07T12:00:13Z",
+            "content": "Jeff Bezos and Elon Musk.Pascal Le Segretain/Getty Images and Michael M. Santiago/Getty Images\r\n<ul>\n<li>The world's six richest people are approaching $1 trillion in combined net worth.</li>\n<li>The… [+2179 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Nora Naughton",
+            "title": "Ford's CEO had a charging 'reality check' on his electric F-150 Lightning road trip",
+            "description": "Ford CEO Jim Farley had trouble charging an F-150 Lightning at a popular charging depot. He called it a \"reality check\" for remaining EV challenges.",
+            "url": "https://www.businessinsider.com/ford-ceo-electric-f-150-road-trip-charging-reality-check-2023-8",
+            "urlToImage": "https://i.insider.com/64da5b461f51cc0019691511?width=1200&format=jpeg",
+            "publishedAt": "2023-08-14T16:54:40Z",
+            "content": "Ford CEO Jim Farley said he set out on an electric-truck road trip to learn what he couldn't from a presentation or briefing. Bill Pugliano/Getty Images\r\n<ul><li>Ford CEO Jim Farley hit the road in a… [+2257 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Kelsey Vlamis,Kwan Wei Kevin Tan",
+            "title": "Women laid off from Twitter say Elon Musk tweeted 'Testosterone rocks ngl' weeks after they were let go, new discrimination lawsuit alleges",
+            "description": "Musk was responding to a tweet referencing James Cameron's view that testosterone is a \"toxin that you have to slowly work out of your system.\"",
+            "url": "https://www.businessinsider.com/elon-musk-targeted-women-twitter-layoffs-tweeted-testosterone-rocks-lawsuit-2023-8",
+            "urlToImage": "https://i.insider.com/64d44fa04dd2b50019c275d9?width=1200&format=jpeg",
+            "publishedAt": "2023-08-10T03:12:52Z",
+            "content": "CEO of SpaceX and Tesla and owner of Twitter, Elon Musk.Chesnot via Getty Images\r\n<ul>\n<li>Former Twitter employees filed a lawsuit accusing Elon Musk of sex, race, and age discrimination.</li>\n<li>T… [+2386 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Pete Syme",
+            "title": "Elon Musk, who is known for pushing boundaries, will reportedly escape a fine for using his phone while driving a Tesla",
+            "description": "Elon Musk was test-driving an unreleased version of Tesla's FSD software and livestreamed the 45-minute demo on X.",
+            "url": "https://www.businessinsider.com/elon-musk-avoids-fine-for-using-phone-while-driving-tesla-2023-8",
+            "urlToImage": "https://i.insider.com/64edbd1a8f9177001939baa5?width=1200&format=jpeg",
+            "publishedAt": "2023-08-29T11:13:31Z",
+            "content": "Elon Musk.Britta Pedersen-Pool/Getty Images\r\n<ul><li>Elon Musk livestreamed himself testing an unreleased version of Tesla's Full Self Driving software on Friday.</li><li>Using a phone while driving … [+2890 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Tim Levin",
+            "title": "EV startup Fisker revealed plans for a four-door convertible supercar with a Tesla-crushing 600 miles of range",
+            "description": "Fisker says the sleek Rōnin will have 1,000 horsepower, four doors, five seats, and a starting price of around $385,000.",
+            "url": "https://www.businessinsider.com/fisker-reveals-ronin-supercar-600-mile-range-tesla-lucid-2023-8",
+            "urlToImage": "https://i.insider.com/64cd587820f1cf0019cb0e2f?width=1200&format=jpeg",
+            "publishedAt": "2023-08-06T10:50:01Z",
+            "content": "Fisker revealed the Rōnin along with two other brand-new vehicles on Thursday.Fisker\r\n<ul>\n<li>Electric-car startup Fisker unveiled three brand-new models on Thursday. </li>\n<li>One is the Rōnin, a f… [+2389 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Design-milk.com"
+            },
+            "author": "Gregory Han",
+            "title": "Simpson & Partners Home EV Charger Elegantly Redefines Powering Up at Home",
+            "description": "Survey the parade of upstart home energy storage solution brands and it’s common to see “former” and “Tesla” underlined in a company’s “About Us” page. Simpson & Partners founders, Mandy and David Simpson are a little different. Mandy Andersen’s 18-year caree…",
+            "url": "https://design-milk.com/?p=515911",
+            "urlToImage": "https://design-milk.com/images/2023/08/DM-080223-SimpsonPartners_EV_Charger-24.jpg",
+            "publishedAt": "2023-08-21T15:00:19Z",
+            "content": "Survey the parade of upstart home energy storage solution brands and it’s common to see “former” and “Tesla” underlined in a company’s “About Us” page. Simpson &amp; Partners founders, Mandy and Davi… [+3683 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Tim Levin",
+            "title": "These are the 6 coolest electric cars still coming this year",
+            "description": "If you aren't quite satisfied with the electric cars on sale today, just wait a few months for that new pickup, SUV, or sport sedan.",
+            "url": "https://www.businessinsider.com/coolest-electric-cars-ev-tesla-cybertruck-chevy-bmw-kia-ev9-2023-8",
+            "urlToImage": "https://i.insider.com/64da8dbc1f51cc00196959f4?width=1200&format=jpeg",
+            "publishedAt": "2023-08-15T12:17:58Z",
+            "content": "The 2024 Chevrolet Equinox EV.Chevrolet\r\n<ul><li>Tons of new and exciting electric vehicles are coming soon. </li><li>Before the end of 2023, we'll see new electric pickups and SUVs.</li><li>Here are… [+4298 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "heise online"
+            },
+            "author": "Martin Franz",
+            "title": "Tesla Model 3 Facelift: Viel Feinschliff im Detail​",
+            "description": "Nach sechs Jahren überarbeitet Tesla die Limousine Model 3.​ Größere Veränderungen bleiben aus, aber Tesla hat im Detail den Kunden aufmerksam zugehört.",
+            "url": "https://www.heise.de/news/Tesla-Model-3-Facelift-Viel-Feinschliff-im-Detail-9291500.html",
+            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/2/9/5/4/2/0/05-79916617f01de244.jpg",
+            "publishedAt": "2023-09-01T07:20:00Z",
+            "content": "Inhaltsverzeichnis\r\nEs war das erste Auto, mit dem Tesla auf den Massenmarkt zielte, und das gelang mit einigem Erfolg: Rund zwei Millionen Model 3 konnten in den vergangenen sechs Jahren weltweit ve… [+4318 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Italy could host Musk v Zuckerberg cage fight",
+            "description": "The culture minister says he has spoken to the X boss about hosting the showdown as a charity event.",
+            "url": "https://www.bbc.co.uk/news/world-europe-66480636",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1EF7/production/_130172970_ecd8d43195c4f9997ddd683393e8cd26782cccb2-2.jpg",
+            "publishedAt": "2023-08-11T18:09:14Z",
+            "content": "A planned cage fight between tech leaders Elon Musk and Mark Zuckerberg could now take place in Italy, and have an ancient Rome theme.\r\nIn the story's latest twist, Italy's culture minister on Friday… [+1883 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Daniel Cooper",
+            "title": "The Morning After: Samsung flip-flops on a One UI beta test",
+            "description": "We’ve all been in Samsung’s position, promising something before quickly realizing we couldn’t, or didn’t want to, actually follow through. But the Korean giant might get a record for the speed at which it walked back its initial pledge. It had intended to gi…",
+            "url": "https://www.engadget.com/the-morning-after-samsung-flip-flops-on-a-one-ui-beta-test-111536441.html",
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/XyeDoLglbSPEfxqXfuJcVg--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-08/cf5e0610-3749-11ee-bf7f-172b93fb63ee.cf.jpg",
+            "publishedAt": "2023-08-11T11:15:36Z",
+            "content": "Weve all been in Samsungs position, promising something before quickly realizing we couldnt, or didnt want to, actually follow through. But the Korean giant might get a record for the speed at which … [+3792 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Xataka.com"
+            },
+            "author": "Ricardo Aguilar",
+            "title": "La gran renovación del Tesla Model 3 es oficial: nuevo diseño, más autonomía y mismo precio",
+            "description": "Tesla ha presentado de forma oficial el Model 3 'Highland'. Por fin, tras meses de filtraciones y rumores, llega un modelo que va mucho más allá del restyling. El nuevo Tesla Model 3 cambia de aspecto, pero también mejora su autonomía, estrena llantas, faros …",
+            "url": "https://www.xataka.com/movilidad/gran-renovacion-tesla-model-3-oficial-nuevo-diseno-autonomia-precio",
+            "urlToImage": "https://i.blogs.es/f5adb9/f46riffwyaagllg/840_560.jpeg",
+            "publishedAt": "2023-09-01T07:57:25Z",
+            "content": "Tesla ha presentado de forma oficial el Model 3 'Highland'. Por fin, tras meses de filtraciones y rumores, llega un modelo que va mucho más allá del restyling. El nuevo Tesla Model 3 cambia de aspect… [+3379 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Tim Levin",
+            "title": "Acura is late to the EV party — but its first electric SUV looks like a winner",
+            "description": "Acura finally revealed its long-anticipated first EV. It brings the heat with 325 miles of range, 500 horsepower, and fast-charging tech.",
+            "url": "https://www.businessinsider.com/acura-zdx-electric-suv-tesla-bmw-mercedes-2023-8",
+            "urlToImage": "https://i.insider.com/64de5e9dbd98a6001978497e?width=1200&format=jpeg",
+            "publishedAt": "2023-08-17T19:28:47Z",
+            "content": "The Acura ZDX hits streets in 2024 with sharp looks and 325 miles of range. Honda\r\n<ul><li>Acura has revealed its very first electric vehicle, the ZDX SUV. </li><li>It touts up to 500 horsepower and … [+2762 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "htan@insider.com (Huileng Tan)",
+            "title": "The billionaire founder of a key Apple supplier announced his Taiwan presidency run, saying Beijing can't threaten him because of his links with Apple, Tesla, Amazon, and Nvidia",
+            "description": "He said no foreign investor would dare invest in China if Beijing confiscated Foxconn's vast assets.",
+            "url": "https://www.businessinsider.com/foxconn-terry-gou-taiwan-president-election-apple-amazon-tesla-nvidia-2023-8",
+            "urlToImage": "https://i.insider.com/64ec4779bc26b4001990c092?width=1200&format=jpeg",
+            "publishedAt": "2023-08-28T10:21:20Z",
+            "content": "Terry Gou, the billionaire founder of Foxconn a key supplier to Apple  has thrown his hat into the ring for Taiwan's presidential election.\r\nHe is betting on his business ties in his bid for the isla… [+2750 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hipertextual"
+            },
+            "author": "Rubén Chicharro",
+            "title": "El precio del Kia EV5 es un golpe sobre la mesa de la movilidad eléctrica",
+            "description": "Tras un primer vistazo el pasado mes de marzo, Kia ya ha confirmado oficialmente cómo será el EV5. El nuevo SUV eléctrico llegará a Europa en 2024, y ya se ha presentado oficialmente en China, donde, además de algunas especificaciones de la que parece ser la …",
+            "url": "http://hipertextual.com/2023/08/el-precio-del-kia-ev5-es-un-golpe-sobre-la-mesa-de-la-movilidad-electrica",
+            "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/08/Kia-EV5-001.jpg",
+            "publishedAt": "2023-08-30T10:19:25Z",
+            "content": "Tras un primer vistazo el pasado mes de marzo, Kia ya ha confirmado oficialmente cómo será el EV5. El nuevo SUV eléctrico llegará a Europa en 2024, y ya se ha presentado oficialmente en China, donde,… [+2519 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Jordan Hart",
+            "title": "Elon Musk, who was accused of unblocking himself from people's accounts after buying Twitter, now says he's getting rid of the block feature altogether aside from DMs",
+            "description": "Elon Musk's latest proposed change to X, formerly Twitter: no more blocking people.",
+            "url": "https://www.businessinsider.com/elon-musk-plans-remove-block-feature-x-twitter-2023-8",
+            "urlToImage": "https://i.insider.com/64df9ba4b698ac0019dc72cc?width=1200&format=jpeg",
+            "publishedAt": "2023-08-19T09:08:05Z",
+            "content": "CEO of SpaceX and Tesla and owner of Twitter, Elon Musk.Chesnot via Getty Images\r\n<ul><li>Elon Musk says the block feature will be \"deleted\" from X, formerly Twitter.</li><li>Musk's posts suggest X u… [+2477 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Theron Mohamed",
+            "title": "4 Big Tech giants have plowed over $1 trillion into stock buybacks in 10 years — more than Tesla or Meta's entire market value",
+            "description": "Apple poured over $600 billion into buybacks in the decade to March 31, exceeding Alphabet, Microsoft, and Meta's combined spending.",
+            "url": "https://markets.businessinsider.com/news/stocks/big-tech-stock-buybacks-apple-google-meta-microsoft-tesla-buffett-2023-8",
+            "urlToImage": "https://i.insider.com/5dfa9a58695b5852d1373a30?width=1200&format=jpeg",
+            "publishedAt": "2023-08-30T10:39:42Z",
+            "content": "Apple CEO Tim Cook.Richard Drew/AP Images\r\n<ul>\n<li>Four Big Tech firms splurged over $1 trillion on stock buybacks in 10 years, S&P Global data shows.</li>\n<li>Apple spent over $600 billion on its o… [+2480 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Autoblog"
+            },
+            "author": "Stephen Williams",
+            "title": "Texas mandates new EV charging stations use the Tesla NACS plug",
+            "description": "Filed under:\n Government/Legal,Green,Tesla,Green Driving,Electric,Infrastructure\n Continue reading Texas mandates new EV charging stations use the Tesla NACS plug\nTexas mandates new EV charging stations use the Tesla NACS plug originally appeared on Autoblog …",
+            "url": "https://www.autoblog.com/2023/08/20/texas-mandates-new-ev-charging-stations-use-the-tesla-nacs-plug/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/crop/4905x2759+0+0/resize/800x450!/format/jpg/quality/85/https://s.aolcdn.com/os/ab/_cms/2019/07/24182049/2019-07-24T205817Z_1_LYNXNPEF6N21W_RTROPTP_4_TESLA-RESULTS.jpg.jpg",
+            "publishedAt": "2023-08-20T13:00:00Z",
+            "content": "In another legal move that will likely go a step further in making Teslas electric vehicle charging infrastructure the de facto system in the United States, Texas has approved a plan to require that … [+1691 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Autoblog"
+            },
+            "author": "Reuters",
+            "title": "NHTSA head says Tesla Autopilot investigation outcome could be announced soon",
+            "description": "Filed under:\n Government/Legal,Green,Tesla,Safety,Electric\n Continue reading NHTSA head says Tesla Autopilot investigation outcome could be announced soon\nNHTSA head says Tesla Autopilot investigation outcome could be announced soon originally appeared on Aut…",
+            "url": "https://www.autoblog.com/2023/08/24/nhtsa-head-says-tesla-autopilot-investigation-outcome-could-be-announced-soon/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/crop/3000x1688+0+379/resize/800x450!/format/jpg/quality/85/https://s.yimg.com/os/creatr-uploaded-images/2023-08/0b185eb0-42be-11ee-9efb-097452b3a63c",
+            "publishedAt": "2023-08-24T20:38:00Z",
+            "content": "WASHINGTON The National Highway Traffic Safety Administration (NHTSA) will resolve its two-year investigation into Tesla Autopilot and could make a public announcement soon, the agency's acting head … [+1726 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "heise online"
+            },
+            "author": "Florian Pillau, mit Material der dpa",
+            "title": "Elektroauto: VW überholt Tesla bei deutschen Erstzulassungen",
+            "description": "Die Elektroauto-Hersteller Volkswagen und Tesla liefern sich in Deutschland mit großem Abstand zum Rest des Felds ein Kopf-an-Kopf-Duell. VW liegt gerade vorn.",
+            "url": "https://www.heise.de/news/Elektroauto-VW-ueberholt-Tesla-bei-deutschen-Erstzulassungen-9237506.html",
+            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/2/8/2/5/8/6/11-037c225d59e68434.jpg",
+            "publishedAt": "2023-08-08T08:02:00Z",
+            "content": "VW hat sich beim Verkauf batterieektrischer Autos in Deutschland wieder vor Tesla geschoben. Mit 41.475 Erstzulassungen in den ersten sieben Monaten des Jahres liegt Volkswagens Kernmarke wieder knap… [+1070 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Autoblog"
+            },
+            "author": "Bloomberg",
+            "title": "Tesla discounts Model S by $30,000, and Model X by $41,000",
+            "description": "Filed under:\n Government/Legal,Green,Tesla,Electric\n Continue reading Tesla discounts Model S by $30,000, and Model X by $41,000\nTesla discounts Model S by $30,000, and Model X by $41,000 originally appeared on Autoblog on Fri, 1 Sep 2023 10:23:00 EDT. Please…",
+            "url": "https://www.autoblog.com/2023/09/01/tesla-discounts-model-s-by-30000-and-model-x-by-41000/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/crop/4434x2494+0+133/resize/800x450!/format/jpg/quality/85/https://s.yimg.com/os/creatr-uploaded-images/2022-11/ed127560-6783-11ed-b1fb-6a901769efa6",
+            "publishedAt": "2023-09-01T14:23:00Z",
+            "content": "Tesla Inc.s latest discounts will newly qualify one of its models for federal subsidies that Elon Musk said years ago the U.S. should scrap.\r\nBy dropping the starting price of the Model X to $79,990 … [+1480 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Autoblog"
+            },
+            "author": "Bloomberg",
+            "title": "NHTSA demands data on hidden Tesla Autopilot feature that lets drivers go hands-free",
+            "description": "Filed under:\n Green,Tesla,Technology,Electric\n Continue reading NHTSA demands data on hidden Tesla Autopilot feature that lets drivers go hands-free\nNHTSA demands data on hidden Tesla Autopilot feature that lets drivers go hands-free originally appeared on Au…",
+            "url": "https://www.autoblog.com/2023/08/30/nhtsa-demands-data-on-hidden-tesla-autopilot-feature-that-lets-drivers-go-hands-free/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.yimg.com/os/creatr-uploaded-images/2023-08/05910650-4745-11ee-bfd8-4fa1e7558345",
+            "publishedAt": "2023-08-30T14:54:00Z",
+            "content": "Tesla is facing increased scrutiny from federal regulators over its driver-assistance system known as Autopilot, with investigators demanding to know if the electric carmaker has made it easier for d… [+3065 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Autoblog"
+            },
+            "author": "Bloomberg",
+            "title": "Tesla investors to get $12,000 each from Musk’s SEC deal",
+            "description": "Filed under:\n Earnings/Financials,Government/Legal,Tesla\n Continue reading Tesla investors to get $12,000 each from Musk’s SEC deal\nTesla investors to get $12,000 each from Musk’s SEC deal originally appeared on Autoblog on Sat, 26 Aug 2023 15:00:00 EDT. Plea…",
+            "url": "https://www.autoblog.com/2023/08/26/tesla-investors-to-get-12000-each-from-musks-sec-deal/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.yimg.com/os/creatr-images/2019-04/63cbaf40-573f-11e9-b7fe-f62d08e71db8",
+            "publishedAt": "2023-08-26T19:00:00Z",
+            "content": "A group of Tesla Inc. investors stands to recover an average of about $12,000 a head for losses they incurred from Elon Musks famous 2018 tweet that he had funding secured to take the carmaker privat… [+2444 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Autoblog"
+            },
+            "author": "Yahoo Finance",
+            "title": "Tesla diner and drive-in theater in L.A. is one step closer to reality",
+            "description": "Filed under:\n Tesla,Driving,Ownership,Electric\n Continue reading Tesla diner and drive-in theater in L.A. is one step closer to reality\nTesla diner and drive-in theater in L.A. is one step closer to reality originally appeared on Autoblog on Sun, 27 Aug 2023 …",
+            "url": "https://www.autoblog.com/2023/08/27/tesla-diner-and-drive-in-theater-in-l-a-is-one-step-closer-to-reality/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2023/08/25122605/tesla-drive-in1.jpg",
+            "publishedAt": "2023-08-27T19:00:00Z",
+            "content": "Looking for a place to hang out with all your Tesla owning friends in L.A.? Or a new diner for Guy Fieri to review in his Food Network show? Well, Tesla CEO Elon Musks vision for a drive-in diner and… [+3091 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Autoblog"
+            },
+            "author": "Ronan Glon",
+            "title": "Leaked video shows the Tesla Cybertruck's small frunk",
+            "description": "Filed under:\n Green,Tesla,Truck,Electric\n Continue reading Leaked video shows the Tesla Cybertruck's small frunk\nLeaked video shows the Tesla Cybertruck's small frunk originally appeared on Autoblog on Mon, 7 Aug 2023 12:17:00 EDT. Please see our terms for us…",
+            "url": "https://www.autoblog.com/2023/08/07/tesla-cybertruck-frunk-front-trunk-video/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2023/08/07105019/whstes.jpg",
+            "publishedAt": "2023-08-07T16:17:00Z",
+            "content": "Pre-production of the Tesla Cybertruckhas started in Texas, and details about the much-delayed electric pickup are beginning to trickle out. While official information remains scarce, a video seeming… [+1898 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Autoblog"
+            },
+            "author": "Chris Teague",
+            "title": "Report: Refreshed Tesla Model 3 almost ready for delivery in China",
+            "description": "Filed under:\n Green,Tesla,Electric,Sedan\n Continue reading Report: Refreshed Tesla Model 3 almost ready for delivery in China\nReport: Refreshed Tesla Model 3 almost ready for delivery in China originally appeared on Autoblog on Wed, 9 Aug 2023 10:40:00 EDT. P…",
+            "url": "https://www.autoblog.com/2023/08/09/report-refreshed-tesla-model-3-almost-ready-for-delivery-in-china/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2023/08/09100252/447mo7kdzjta11.jpg",
+            "publishedAt": "2023-08-09T14:40:00Z",
+            "content": "The Tesla Model 3 has been on sale for years without a significant overhaul, but weve been hearing whispers and seeing spy shots of an alleged facelifted model for a while now. CarBuzz dug up a recen… [+1719 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Xataka.com"
+            },
+            "author": "Alberto de la Torre",
+            "title": "Valencia aún no da por perdida la fábrica de Tesla. La mejor prueba: está expropiando terrenos",
+            "description": "Hace exactamente dos meses, una tarde de junio se animaba la actualidad de la automoción en España. Un rumor empezó a correr por los medios de comunicación: una gran compañía quería hacer una enorme inversión en nuestro país para fabricar coches eléctricos. A…",
+            "url": "https://www.xataka.com/movilidad/valencia-no-da-perdida-fabrica-tesla-mejor-prueba-esta-expropiando-terrenos",
+            "urlToImage": "https://i.blogs.es/29f85f/austin-schmid-2tl93ddijyq-unsplash/840_560.jpeg",
+            "publishedAt": "2023-08-08T12:30:48Z",
+            "content": "Hace exactamente dos meses, una tarde de junio se animaba la actualidad de la automoción en España. Un rumor empezó a correr por los medios de comunicación: una gran compañía quería hacer una enorme … [+3421 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Boing Boing"
+            },
+            "author": "Jason Weisberger",
+            "title": "Cybertruck test model found abandoned on road",
+            "description": "Electrek shares the story of a lonely Tesla Cybertruck, left covered on the side of the road. The report reminds us not to worry, it is common for test vehicles to break down, but the incident did provide an opportunity for a photographer to grab shots some m…",
+            "url": "https://boingboing.net/2023/08/15/cybertruck-test-model-found-abandoned-on-road.html",
+            "urlToImage": "https://i0.wp.com/boingboing.net/wp-content/uploads/2023/08/Screenshot-2023-08-15-at-8.40.04-AM.png?fit=972%2C1106&ssl=1",
+            "publishedAt": "2023-08-15T15:47:36Z",
+            "content": "Electrek shares the story of a lonely Tesla Cybertruck, left covered on the side of the road. The report reminds us not to worry, it is common for test vehicles to break down, but the incident did pr… [+1047 chars]"
+        }
+    ]
+}

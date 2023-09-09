@@ -5,29 +5,21 @@
 //  Created by Mariam on 05/09/2023.
 //
 
+import Foundation
 import Combine
-
-protocol HomeServiceProtocol {
-    func getProduct(request: HomeRequest) -> AnyPublisher<HomeModel, NetworkError>
-}
 
 class HomeService: HomeServiceProtocol {
     
-    private var networkRequest: Requestable
+    private var networkRequest: APIServiceProtocol
     
-    init(networkRequest: Requestable = NativeRequestable()) {
+    init(networkRequest: APIServiceProtocol = APIService()) {
         self.networkRequest = networkRequest
     }
-
-    func getProduct(request: HomeRequest) -> AnyPublisher<HomeModel, NetworkError> {
+    
+    func getHome() -> AnyPublisher<HomeModel, NetworkError> {
         let endpoint = ServiceEndpoints.getProduct
-        let requestNetwork = endpoint.createRequest(request: request, environment: .development)
+        let requestNetwork = endpoint.createRequest(request: HomeRequest(q: "tesla"), environment: .development, path: APIConstants.home.rawValue)
         return self.networkRequest.request(requestNetwork)
     }
-  
-}
-
-public struct HomeRequest: Encodable {
-    public let q: String
 }
 

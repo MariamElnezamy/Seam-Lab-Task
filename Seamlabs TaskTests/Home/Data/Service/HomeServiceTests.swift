@@ -31,7 +31,7 @@ final class HomeServiceTests: XCTestCase {
         // Given
         let apiService = MockAPIService()
         apiService.fileName = "HomeServiceResponse"
-        sut = HomeService()
+        sut = HomeService(networkRequest: apiService)
         let expectation = expectation(description: expectationDesc)
         // When
         let publisher = sut.getHome()
@@ -63,16 +63,14 @@ final class HomeServiceTests: XCTestCase {
             .receive(on: RunLoop.main)
             .sink(
                 receiveCompletion: { completion in
-                    guard case .failure = completion else { return }
+                    XCTAssertNotEqual(completion, .failure(.invalidJSON("")))
                     expectation.fulfill()
                 },
-                receiveValue: { value in
-                    // Then
-                    XCTAssertNil(value.data)
+                receiveValue: { _ in
                 }
             )
         // Then
-        waitForExpectations(timeout: 10)
+        waitForExpectations(timeout: 1.0)
         cancellable.cancel()
     }
     

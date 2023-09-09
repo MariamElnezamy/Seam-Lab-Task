@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+public enum APIConstants: String {
+    
+    case baseURL = "https://newsapi.org/v2"
+    case home = "/everything"
+}
